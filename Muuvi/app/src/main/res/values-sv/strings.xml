@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Logga in</string>
+    <string name="phone_number_email_or_username">Telefonnummer, e-post eller användarnamn</string>
+    <string name="password">Lösenord</string>
+    <string name="forgot_your_details">Har du glömt dina inloggningsuppgifter?</string>
+    <string name="get_help_signing_in">Få hjälp med att logga in.</string>
+    <string name="log_in_with_facebook">Logga in med Facebook</string>
+    <string name="don_t_have_an_account">Har du inget konto?</string>
+    <string name="sign_up_">Registrera dig.</string>
+    <string name="activeLanguage">Svenska</string>
+    <string name="select_your_language">Välj språk</string>
+    <string name="search">Sök</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>engelska</item>
+        <item>afrikaans</item>
+        <item>indonesiska</item>
+        <item>malajiska</item>
+        <item>danska</item>
+        <item>tyska</item>
+        <item>engleska (Storbritannien)</item>
+        <item>spanska (Latinamerika)</item>
+        <item>spanska (Spanien)</item>
+        <item>filippinska</item>
+        <item>franska (Kanada)</item>
+        <item>franska (Frankrike)</item>
+        <item>kroatiska</item>
+        <item>italienska</item>
+        <item>ungerska</item>
+        <item>holländska</item>
+        <item>norska (bokmål)</item>
+        <item>polska</item>
+        <item>portugisiska (Brasilien)</item>
+        <item>portugisiska (Portugal)</item>
+        <item>rumänska</item>
+        <item>slovakiska</item>
+        <item>finska</item>
+        <item>svenska</item>
+        <item>vietnamesiska</item>
+        <item>turkiska</item>
+        <item>tjeckiska</item>
+        <item>grekiska</item>
+        <item>bulgariska</item>
+        <item>ryska</item>
+        <item>ukrainska</item>
+        <item>Serbiska</item>
+        <item>Hebreiska</item>
+        <item>Arabiska</item>
+        <item>Persiska</item>
+        <item>Hindi</item>
+        <item>thailändska</item>
+        <item>kinesiska (förenklad)</item>
+        <item>Traditionell kinesiska (Taiwan)</item>
+        <item>Traditionell kinesiska (Hongkong)</item>
+        <item>japanska</item>
+        <item>koreanska</item>
+    </string-array>
+
+</resources>

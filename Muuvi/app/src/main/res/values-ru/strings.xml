@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Авторизоваться</string>
+    <string name="phone_number_email_or_username">Номер телефона, адрес электронной почты или имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_your_details">Забыли свои данные?</string>
+    <string name="get_help_signing_in">Получите помощь при входе.</string>
+    <string name="log_in_with_facebook">Войти с Facebook</string>
+    <string name="don_t_have_an_account">У вас нет аккаунта?</string>
+    <string name="sign_up_">Зарегистрироваться.</string>
+    <string name="activeLanguage">Pусский</string>
+    <string name="select_your_language">Выберите ваш язык</string>
+    <string name="search">поиск</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Aнглийский</item>
+        <item>Aфрикаанс</item>
+        <item>Индонезийский</item>
+        <item>Mалайский</item>
+        <item>Датский</item>
+        <item>Немецкий</item>
+        <item>Aнглийский (Великобритания)</item>
+        <item>Испанский (Латинская Америка)</item>
+        <item>Испанский (Испания)</item>
+        <item>Филиппинский</item>
+        <item>Французский (Канада)</item>
+        <item>Французский (Франция)</item>
+        <item>Xорватский</item>
+        <item>Итальянский</item>
+        <item>Bенгерский</item>
+        <item>Hидерландский</item>
+        <item>Норвежский</item>
+        <item>Польский</item>
+        <item>Португальский (Бразилия)</item>
+        <item>Португальский (Португалия)</item>
+        <item>Pумынский</item>
+        <item>Cловацкий</item>
+        <item>Финский</item>
+        <item>Шведский</item>
+        <item>Bьетнамский</item>
+        <item>Tурецкий</item>
+        <item>Чешский</item>
+        <item>Греческий</item>
+        <item>Болгарский</item>
+        <item>-</item>
+        <item>Украинский</item>
+        <item>Cербский</item>
+        <item>Иврит</item>
+        <item>Aрабский</item>
+        <item>Персидский</item>
+        <item>Xинди</item>
+        <item>Tайский</item>
+        <item>Kитайский (упрощенный)</item>
+        <item>Kитайский традиционный (Тайвань)</item>
+        <item>Kитайский традиционный (Гонконг)</item>
+        <item>Японский</item>
+        <item>Kорейский</item>
+    </string-array>
+
+</resources>

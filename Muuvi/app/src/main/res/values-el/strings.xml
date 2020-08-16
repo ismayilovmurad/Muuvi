@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Σύνδεση</string>
+    <string name="phone_number_email_or_username">Αριθμός τηλεφώνου, email ή όνομα χρήστη</string>
+    <string name="password">Κωδικός πρόσβασης</string>
+    <string name="forgot_your_details">Ξεχάσατε τα στοιχεία σας;</string>
+    <string name="get_help_signing_in">Λάβετε βοήθεια κατά τη σύνδεση.</string>
+    <string name="log_in_with_facebook">Σύνδεση με το Facebook</string>
+    <string name="don_t_have_an_account">Δεν έχετε λογαριασμό;</string>
+    <string name="sign_up_">Εγγραφείτε.</string>
+    <string name="activeLanguage">Ελληνικά</string>
+    <string name="select_your_language">Επιλέξτε την γλώσσα σας</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Αγγλικά</item>
+        <item>Αφρικάανς</item>
+        <item>Ινδονησιακά</item>
+        <item>Μαλαϊκά</item>
+        <item>Δανέζικα</item>
+        <item>Γερμανικά</item>
+        <item>Αγγλικά (HB)</item>
+        <item>Ισπανικά (Λατινική Αμερική)</item>
+        <item>Ισπανικά (Ισπανία)</item>
+        <item>Φιλιππινέζικα</item>
+        <item>Γαλλικά (Καναδά)</item>
+        <item>Γαλλικά (Γαλλία)</item>
+        <item>Κροατικά</item>
+        <item>Ιταλικά</item>
+        <item>Ουγγρικά</item>
+        <item>Ολλανδικά</item>
+        <item>Νορβηγικά (Bokmål)</item>
+        <item>Πολωνικά</item>
+        <item>Πορτογαλικά (Βραζιλία)</item>
+        <item>Πορτογαλικά (Πορτογαλία)</item>
+        <item>Ρουμανικά</item>
+        <item>Σλοβακικά</item>
+        <item>Φινλανδικά</item>
+        <item>Σουηδικά</item>
+        <item>Βιετναμέζικα</item>
+        <item>Τούρκικα</item>
+        <item>Τσέχικα</item>
+        <item>-</item>
+        <item>Βουλγαρικά</item>
+        <item>Ρωσικα</item>
+        <item>Ουκρανικά</item>
+        <item>Σερβικά</item>
+        <item>Εβραϊκά</item>
+        <item>Αραβικά</item>
+        <item>Περσικά</item>
+        <item>Χίντι</item>
+        <item>Ταϊλανδέζικα</item>
+        <item>Κινέζικα (απλοποιημένα)</item>
+        <item>Κινέζικα (Παραδοσιακά, Ταϊβάν)</item>
+        <item>Κινέζικα (Παραδοσιακά, Χονγκ Κονγκ)</item>
+        <item>Ιαπωνικά</item>
+        <item>Κορεάτικα</item>
+    </string-array>
+
+</resources>

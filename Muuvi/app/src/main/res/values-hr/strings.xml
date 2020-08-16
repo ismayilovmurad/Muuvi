@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Prijavi se</string>
+    <string name="phone_number_email_or_username">Broj telefona, adresa e-pošte ili korisničko ime</string>
+    <string name="password">Lozinka</string>
+    <string name="forgot_your_details">Zaboravili ste podatke za prijavu?</string>
+    <string name="get_help_signing_in">Zatražite pomoć za prijavu.</string>
+    <string name="log_in_with_facebook">Prijavite se putem Facebooka</string>
+    <string name="don_t_have_an_account">Nemate korisnički račun?</string>
+    <string name="sign_up_">Registrirajte se.</string>
+    <string name="activeLanguage">Hrvatski</string>
+    <string name="select_your_language">Odaberite jezik</string>
+    <string name="search">traži</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Engleski</item>
+        <item>-</item>
+        <item>Indonezijski</item>
+        <item>Malajski jezik</item>
+        <item>Danski</item>
+        <item>Njemački</item>
+        <item>Engleski (UK)</item>
+        <item>Španjolski (Latinska Amerika)</item>
+        <item>Španjolski (Španjolska)</item>
+        <item>Filipinski</item>
+        <item>Francuski (Kanada)</item>
+        <item>Francuski (Francuska)</item>
+        <item>-</item>
+        <item>Talijanski</item>
+        <item>Madžarski</item>
+        <item>Nizozemski</item>
+        <item>Norveški (bokmal)</item>
+        <item>Poljski</item>
+        <item>Portugalski (Brazil)</item>
+        <item>Portugalski (Portugal)</item>
+        <item>Rumunjski</item>
+        <item>Slovački</item>
+        <item>Finski</item>
+        <item>Švedski</item>
+        <item>Vijetnamski</item>
+        <item>Turski</item>
+        <item>Češki</item>
+        <item>Grčki</item>
+        <item>Bugarski</item>
+        <item>Ruski</item>
+        <item>Ukrajinski</item>
+        <item>Srpski</item>
+        <item>Hebrejski</item>
+        <item>Arapski</item>
+        <item>Perzijski</item>
+        <item>Hindski</item>
+        <item>Tajski</item>
+        <item>Kineski (jednostavni)</item>
+        <item>Kineski (tradicionalni, Tajvan)</item>
+        <item>Kineski (tradicionalni, Hong Kong)</item>
+        <item>Japanski</item>
+        <item>Korejski</item>
+    </string-array>
+
+</resources>

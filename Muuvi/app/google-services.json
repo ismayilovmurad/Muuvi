@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "890084509016",
+    "firebase_url": "https://muuvi-app.firebaseio.com",
+    "project_id": "muuvi-app",
+    "storage_bucket": "muuvi-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890084509016:android:9dd2d5537bd4ea6b9d912d",
+        "android_client_info": {
+          "package_name": "com.martiandeveloper.muuvi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890084509016-0f3uid3nmsjpic0em44eb55b9h79alu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.martiandeveloper.muuvi",
+            "certificate_hash": "e81b771527d03365b128de94c32b2cd0c6d2014c"
+          }
+        },
+        {
+          "client_id": "890084509016-ralr3en04iufgsdjjihhvnf9cpo0ammc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAAoSLEFSvkDJNwyIma3Tk8mFae3ii6j8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890084509016-ralr3en04iufgsdjjihhvnf9cpo0ammc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

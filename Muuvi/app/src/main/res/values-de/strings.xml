@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Melde dich an</string>
+    <string name="phone_number_email_or_username">Handynummer, E-Mail oder Banutzername</string>
+    <string name="password">Passwort</string>
+    <string name="forgot_your_details">Anmeldedaten vergessen?</string>
+    <string name="get_help_signing_in">Hol dir Hilfe bei der Anmeldung.</string>
+    <string name="log_in_with_facebook">Mit Facebook anmelden</string>
+    <string name="don_t_have_an_account">Du hast kein Konto?</string>
+    <string name="sign_up_">Registriere dich.</string>
+    <string name="activeLanguage">Deutsch</string>
+    <string name="select_your_language">Wähle deine sprache aus</string>
+    <string name="search">Suche</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Englisch</item>
+        <item>-</item>
+        <item>Indonesisch</item>
+        <item>Malaiisch</item>
+        <item>Dänisch</item>
+        <item>-</item>
+        <item>Englisch (UK)</item>
+        <item>Spanisch (Lateinamerika)</item>
+        <item>Spanisch (Spanien)</item>
+        <item>-</item>
+        <item>Französisch (Kanada)</item>
+        <item>Französisch (Frankreich)</item>
+        <item>Kroatisch</item>
+        <item>Italienisch</item>
+        <item>Ungarisch</item>
+        <item>Niederländisch</item>
+        <item>Norwegisch (Bokmal)</item>
+        <item>Polnisch</item>
+        <item>Portugiesisch (Brasilien)</item>
+        <item>Portugiesisch (Portugal)</item>
+        <item>Rumänisch</item>
+        <item>Slowakisch</item>
+        <item>Finnisch</item>
+        <item>Schwedisch</item>
+        <item>Vietnamesisch</item>
+        <item>Türkisch</item>
+        <item>Tschechisch</item>
+        <item>Griechisch</item>
+        <item>Bulgarisch</item>
+        <item>Russisch</item>
+        <item>Ukrainisch</item>
+        <item>Serbisch</item>
+        <item>Hebräisch</item>
+        <item>Arabisch</item>
+        <item>Persisch</item>
+        <item>Hindi</item>
+        <item>Thailändisch</item>
+        <item>Chinesisch (Vereinfacht)</item>
+        <item>Chinesisch (Traditionell, Taiwan)</item>
+        <item>Chinesisch (Traditionell, Hongkong)</item>
+        <item>Japanisch</item>
+        <item>Koreanisch</item>
+    </string-array>
+
+</resources>

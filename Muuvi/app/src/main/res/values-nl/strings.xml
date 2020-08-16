@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Aanmelden</string>
+    <string name="phone_number_email_or_username">Telefoonnummer, e-mailadres of gebruikersnaam</string>
+    <string name="password">Wachtwoord</string>
+    <string name="forgot_your_details">Aanmeldgegevens vergeten?</string>
+    <string name="get_help_signing_in">Hulp bij het aanmelden.</string>
+    <string name="log_in_with_facebook">Aanmelden met Facebook</string>
+    <string name="don_t_have_an_account">Geen account?</string>
+    <string name="sign_up_">Registreer je.</string>
+    <string name="activeLanguage">Nederlands</string>
+    <string name="select_your_language">Je taal selecteren</string>
+    <string name="search">Zoeken</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Engels</item>
+        <item>-</item>
+        <item>Indonesisch</item>
+        <item>Maleis</item>
+        <item>Deens</item>
+        <item>Duits</item>
+        <item>Engels (VK)</item>
+        <item>Spaans (Latijns-Amerika)</item>
+        <item>Spaans (Spanje)</item>
+        <item>Filippijns</item>
+        <item>Frans (Canada)</item>
+        <item>Frans (Frankrijk)</item>
+        <item>Kroatisch</item>
+        <item>Italiaans</item>
+        <item>Hongaars</item>
+        <item>-</item>
+        <item>Noors (Bokmål)</item>
+        <item>Pools</item>
+        <item>Portugees (Brazilië)</item>
+        <item>Portugees (Portugal)</item>
+        <item>Roemeens</item>
+        <item>Slowaaks</item>
+        <item>Fins</item>
+        <item>Zweeds</item>
+        <item>Vietnamees</item>
+        <item>Turks</item>
+        <item>Tsjechisch</item>
+        <item>Grieks</item>
+        <item>Bulgaars</item>
+        <item>Russisch</item>
+        <item>Oekraïens</item>
+        <item>Servisch</item>
+        <item>Hebreeuws</item>
+        <item>Arabisch</item>
+        <item>Perzisch</item>
+        <item>Hindi</item>
+        <item>Thais</item>
+        <item>Chinees (vereenvoudigd)</item>
+        <item>Chinees (traditioneel, Taiwan)</item>
+        <item>Chinees (traditioneel, Hongkong)</item>
+        <item>Japans</item>
+        <item>Koreaans</item>
+    </string-array>
+
+</resources>

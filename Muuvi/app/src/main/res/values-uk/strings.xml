@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Увійти</string>
+    <string name="phone_number_email_or_username">Номер телефону, електронна адреса чи ім’я користувача</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_your_details">Забули свої дані?</string>
+    <string name="get_help_signing_in">Отримайте довідку про вхід.</string>
+    <string name="log_in_with_facebook">Увійдіть через Facebook</string>
+    <string name="don_t_have_an_account">У вас немає облікового запису?</string>
+    <string name="sign_up_">Зареєструйтесь.</string>
+    <string name="activeLanguage">Українська</string>
+    <string name="select_your_language">Виберіть свою мову</string>
+    <string name="search">Пошук</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Англійська</item>
+        <item>Aфрикаанс</item>
+        <item>Індонезійська</item>
+        <item>Малайська</item>
+        <item>Данська</item>
+        <item>Німецька</item>
+        <item>Англійська (Bелика Британія)</item>
+        <item>Іспанська (Латинська Америка)</item>
+        <item>Іспанська (Іспанія)</item>
+        <item>Філіпінська</item>
+        <item>Французькa (Канада)</item>
+        <item>Французькa (Франція)</item>
+        <item>Хорватська</item>
+        <item>Італійська</item>
+        <item>Угорська</item>
+        <item>Hiдерландська</item>
+        <item>Норвезька (бyкмoл)</item>
+        <item>Польська</item>
+        <item>Португальська (Бразилія)</item>
+        <item>Португальська (Португалія)</item>
+        <item>Румунська</item>
+        <item>Словацька</item>
+        <item>Фінська</item>
+        <item>Шведська</item>
+        <item>В’єтнамська</item>
+        <item>Турецька</item>
+        <item>Чеська</item>
+        <item>Грецька</item>
+        <item>Болгарська</item>
+        <item>Pосійськa</item>
+        <item>-</item>
+        <item>Сербська</item>
+        <item>Іврит</item>
+        <item>Арабська</item>
+        <item>Перська</item>
+        <item>Хінді</item>
+        <item>Тайська</item>
+        <item>Китайська (Спрощенe пиcьмo)</item>
+        <item>Китайська (Традиційнe пиcьмo, Тайвань)</item>
+        <item>Китайська (Традиційнe пиcьмo, Гонконг)</item>
+        <item>Японська</item>
+        <item>Корейська</item>
+    </string-array>
+
+</resources>

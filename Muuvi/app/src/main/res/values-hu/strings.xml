@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Bejelentkezés</string>
+    <string name="phone_number_email_or_username">Telefonszám, e-mail-cím vagy felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="forgot_your_details">Elfelejtetted a bejelentkezési adataidat?</string>
+    <string name="get_help_signing_in">Segítség a bejelentkezéshez.</string>
+    <string name="log_in_with_facebook">Bejelentkezés a Facebookkal</string>
+    <string name="don_t_have_an_account">Nincs fiókod?</string>
+    <string name="sign_up_">Regisztrálj.</string>
+    <string name="activeLanguage">Magyar</string>
+    <string name="select_your_language">Válassz nyelvet</string>
+    <string name="search">Keresés</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>angol</item>
+        <item>afrikaans</item>
+        <item>indonéz</item>
+        <item>maláj</item>
+        <item>dán</item>
+        <item>német</item>
+        <item>angol (brit)</item>
+        <item>spanyol (latin-amerikai)</item>
+        <item>spanyol (spanyolországi)</item>
+        <item>filippínó</item>
+        <item>francia (kanadai)</item>
+        <item>francia (franciaországi)</item>
+        <item>horvát</item>
+        <item>olasz</item>
+        <item>magyar</item>
+        <item>holland</item>
+        <item>norvég (bokmål)</item>
+        <item>lengyel</item>
+        <item>portugál (brazíliai)</item>
+        <item>portugál (portugáliai)</item>
+        <item>román</item>
+        <item>szlovák</item>
+        <item>finn</item>
+        <item>svéd</item>
+        <item>vietnámi</item>
+        <item>török</item>
+        <item>sceh</item>
+        <item>görög</item>
+        <item>bolgár</item>
+        <item>orosz</item>
+        <item>ukrán</item>
+        <item>szerb</item>
+        <item>héber</item>
+        <item>arab</item>
+        <item>perzsa</item>
+        <item>hindi</item>
+        <item>thai</item>
+        <item>kínai (egyszerűsített)</item>
+        <item>Kínai (hagyományos, Tajvan)</item>
+        <item>Kínai (hagyományos kínai, Hongkong)</item>
+        <item>japán</item>
+        <item>koreai</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Kirjaudu sisään</string>
+    <string name="phone_number_email_or_username">Puhelinnumero, sähköpostiosoite tai käyttäjänimi</string>
+    <string name="password">Salasana</string>
+    <string name="forgot_your_details">Unohditko kirjautumistietosi?</string>
+    <string name="get_help_signing_in">Apua sisäänkirjautumiseen.</string>
+    <string name="log_in_with_facebook">Kirjaudu Facebook-tunnuksilla</string>
+    <string name="don_t_have_an_account">Eikä sinulla käyttäjätilliä?</string>
+    <string name="sign_up_">Rekisteröidy.</string>
+    <string name="activeLanguage">Suomi</string>
+    <string name="select_your_language">Valitse kielesi</string>
+    <string name="search">Hae</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>englanti</item>
+        <item>afrikaans</item>
+        <item>indonesia</item>
+        <item>malaiji</item>
+        <item>tanska</item>
+        <item>saksa</item>
+        <item>englanti (Iso-Britannia)</item>
+        <item>espanja (Latinalainen Amerikka)</item>
+        <item>espanja (Espanja)</item>
+        <item>filipino</item>
+        <item>ranska (Kanada)</item>
+        <item>ranska</item>
+        <item>kroatia</item>
+        <item>italia</item>
+        <item>unkari</item>
+        <item>hollanti</item>
+        <item>norja (bokmål)</item>
+        <item>puola</item>
+        <item>portugali (Brasilia)</item>
+        <item>portugali (Portugali)</item>
+        <item>romania</item>
+        <item>slovakia</item>
+        <item>suomi</item>
+        <item>ruotsi</item>
+        <item>vietnam</item>
+        <item>turkki</item>
+        <item>tšekki</item>
+        <item>kreikka</item>
+        <item>bulgaria</item>
+        <item>venäjä</item>
+        <item>ukraina</item>
+        <item>serbia</item>
+        <item>heprea</item>
+        <item>arabia</item>
+        <item>farsi</item>
+        <item>hindi</item>
+        <item>thai</item>
+        <item>kiina (yksinkertaistettu)</item>
+        <item>kiina (perinteinen, Taiwan)</item>
+        <item>kiina (perinteinen, Hongkong)</item>
+        <item>japani</item>
+        <item>korea</item>
+    </string-array>
+
+</resources>

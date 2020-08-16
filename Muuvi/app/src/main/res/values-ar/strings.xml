@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="phone_number_email_or_username">رقم الهاتف أو البريد الإلكتروني أو اسم المستخدم</string>
+    <string name="password">كلمه السر</string>
+    <string name="forgot_your_details">نسيت التفاصيل الخاصة بك؟</string>
+    <string name="get_help_signing_in">احصل على مساعدة في تسجيل الدخول.</string>
+    <string name="log_in_with_facebook">تسجيل الدخول باستخدام الفيسبوك</string>
+    <string name="don_t_have_an_account">ليس لديك حساب؟</string>
+    <string name="sign_up_">سجل.</string>
+    <string name="activeLanguage">اَلْعَرَبِيَّةُ</string>
+    <string name="select_your_language">اختر لغتك</string>
+    <string name="search">بحث</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>الإنجليزية</item>
+        <item>الأفريقانية</item>
+        <item>اللغة الأندونيسية</item>
+        <item>لغة الملايو</item>
+        <item>دانماركي</item>
+        <item>ألمانية</item>
+        <item>الإنجليزية(المملكة المتحدة)</item>
+        <item>الأسبانية (اميركا اللاتينية)</item>
+        <item>الأسبانية (إسبانيا)</item>
+        <item>الفلبينية</item>
+        <item>فرنسي (كندا)</item>
+        <item>فرنسي (فرنسا)</item>
+        <item>الكرواتية</item>
+        <item>الإيطالي</item>
+        <item>المجري</item>
+        <item>هولندي</item>
+        <item>النرويجية (بوكمال)</item>
+        <item>تلميع</item>
+        <item>البرتغالية (البرازيل)</item>
+        <item>البرتغالية (البرتغال)</item>
+        <item>رومانيا</item>
+        <item>السلوفاكية</item>
+        <item>اللغة الفنلندية</item>
+        <item>السويدية</item>
+        <item>الفيتنامية</item>
+        <item>اللغة التركية</item>
+        <item>التشيكية</item>
+        <item>اليونانية</item>
+        <item>البلغارية</item>
+        <item>الروسية</item>
+        <item>الأوكراني</item>
+        <item>صربي</item>
+        <item>اللغة العبرية</item>
+        <item>-</item>
+        <item>اللغة الفارسية</item>
+        <item>هندي</item>
+        <item>التايلاندية</item>
+        <item>صينى (مبسط)</item>
+        <item>صينى (تقليدي, تايوان)</item>
+        <item>صينى (تقليدي, هونج كونج)</item>
+        <item>اليابانية</item>
+        <item>الكورية</item>
+    </string-array>
+
+</resources>

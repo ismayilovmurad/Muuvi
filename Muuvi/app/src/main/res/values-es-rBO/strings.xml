@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="phone_number_email_or_username">Teléfono, correo electrónico o usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_your_details">¿Olvidaste tus datos de inicio de sesión?</string>
+    <string name="get_help_signing_in">Obtén ayuda.</string>
+    <string name="log_in_with_facebook">Iniciar sesión con Facebook</string>
+    <string name="don_t_have_an_account">¿No tienes una cuenta?</string>
+    <string name="sign_up_">Regístrate.</string>
+    <string name="activeLanguage">Español</string>
+    <string name="select_your_language">Seleciona tu idioma</string>
+    <string name="search">Buscar</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Inglés</item>
+        <item>Africáans</item>
+        <item>Indonesio</item>
+        <item>Malayo</item>
+        <item>Danés</item>
+        <item>Alemán</item>
+        <item>Inglés (Reino Unido)</item>
+        <item>Español (Latinoamérica)</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Francés (Canadá)</item>
+        <item>Francés (Francia)</item>
+        <item>Croata</item>
+        <item>-</item>
+        <item>Húngaro</item>
+        <item>Holandés</item>
+        <item>Noruego (Bokmål)</item>
+        <item>Polaco</item>
+        <item>Portugués (Brasil)</item>
+        <item>Portugués (Portugal)</item>
+        <item>Rumano</item>
+        <item>Eslovako</item>
+        <item>Finés</item>
+        <item>Sueco</item>
+        <item>Vietnamita</item>
+        <item>Turco</item>
+        <item>Checo</item>
+        <item>Griego</item>
+        <item>Búlgaro</item>
+        <item>Ruso</item>
+        <item>Ucraniano</item>
+        <item>Serbio</item>
+        <item>Hebreo</item>
+        <item>Árabe</item>
+        <item>Persa</item>
+        <item>Hindi</item>
+        <item>Tailandés</item>
+        <item>Chino (simplificado)</item>
+        <item>Chino (tradicional, Taiwán)</item>
+        <item>Chino (tradicional, Hong Kong)</item>
+        <item>Japonés</item>
+        <item>Coreano</item>
+    </string-array>
+
+</resources>

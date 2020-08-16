@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Conectare</string>
+    <string name="phone_number_email_or_username">Număr de telefon, adresa de e-mail sau nume de utilizator</string>
+    <string name="password">Parolă</string>
+    <string name="forgot_your_details">Ai uitat detaliile de conectare?</string>
+    <string name="get_help_signing_in">Primește ajutor pentru conectare.</string>
+    <string name="log_in_with_facebook">Conectare cu Facebook</string>
+    <string name="don_t_have_an_account">Nu ai cont?</string>
+    <string name="sign_up_">Înscrie-te.</string>
+    <string name="activeLanguage">Română</string>
+    <string name="select_your_language">Selectează limba</string>
+    <string name="search">căutare</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Engleză</item>
+        <item>-</item>
+        <item>Indoneziană</item>
+        <item>Malaeză</item>
+        <item>Daneză</item>
+        <item>Germană</item>
+        <item>Engleză (UK)</item>
+        <item>Spaniolă (America Latină)</item>
+        <item>Spaniolă (Spania)</item>
+        <item>Filipineză</item>
+        <item>Franceză (Canada)</item>
+        <item>Franceză (Franţa)</item>
+        <item>Croată</item>
+        <item>Italiană</item>
+        <item>Maghiară</item>
+        <item>Olandeză</item>
+        <item>Norwegiană (bokmal)</item>
+        <item>Poloneză</item>
+        <item>Portugheză (Brazilia)</item>
+        <item>Portugheză (Portugalia)</item>
+        <item>-</item>
+        <item>Slovacă</item>
+        <item>Finlandeză</item>
+        <item>Suedeză</item>
+        <item>Vietnameză</item>
+        <item>Turcă</item>
+        <item>Cehă</item>
+        <item>Greacă</item>
+        <item>Bulgară</item>
+        <item>Rusă</item>
+        <item>Ucraineană</item>
+        <item>Sărbă</item>
+        <item>Ebraică</item>
+        <item>Arabă</item>
+        <item>Persană</item>
+        <item>Hindi</item>
+        <item>Thailandeză</item>
+        <item>Chineză (simplificat)</item>
+        <item>Chineză (tradiţională, Taiwan)</item>
+        <item>Chineză (tradiţională, Hong Kong)</item>
+        <item>Japoneză</item>
+        <item>Coreeană</item>
+    </string-array>
+
+</resources>

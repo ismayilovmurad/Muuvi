@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Log In</string>
+    <string name="phone_number_email_or_username">Phone number, email or username</string>
+    <string name="password">Password</string>
+    <string name="forgot_your_details">Forgot your details?</string>
+    <string name="get_help_signing_in">Get help signing in.</string>
+    <string name="log_in_with_facebook">Log in with Facebook</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up_">Sign up.</string>
+    <string name="activeLanguage">English</string>
+    <string name="select_your_language">Select your language</string>
+    <string name="search">Search</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>-</item>
+        <item>-</item>
+        <item>Indonesian</item>
+        <item>Malay</item>
+        <item>Danish</item>
+        <item>German</item>
+        <item>-</item>
+        <item>Spanish (Latin America)</item>
+        <item>Spanish (Spain)</item>
+        <item>-</item>
+        <item>French (Canada)</item>
+        <item>French (France)</item>
+        <item>Croatian</item>
+        <item>Italian</item>
+        <item>Hungarian</item>
+        <item>Dutch</item>
+        <item>Norwegian (bokmal)</item>
+        <item>Polish</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Portuguese (Portugal)</item>
+        <item>Romanian</item>
+        <item>Slovak</item>
+        <item>Finnish</item>
+        <item>Swedish</item>
+        <item>Vietnamese</item>
+        <item>Turkish</item>
+        <item>Czech</item>
+        <item>Greek</item>
+        <item>Bulgarian</item>
+        <item>Russian</item>
+        <item>Ukrainian</item>
+        <item>Serbian</item>
+        <item>Hebrew</item>
+        <item>Arabic</item>
+        <item>Persian</item>
+        <item>Hindi</item>
+        <item>Thai</item>
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Traditional, Taiwan)</item>
+        <item>Chinese (Traditional, Hong Kong)</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+    </string-array>
+
+</resources>

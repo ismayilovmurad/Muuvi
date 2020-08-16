@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Пријавите се</string>
+    <string name="phone_number_email_or_username">Телефонски број, имејл или корисничко име</string>
+    <string name="password">Лозинка</string>
+    <string name="forgot_your_details">Заборавили сте своје детаље?</string>
+    <string name="get_help_signing_in">Помоћ за пријаву</string>
+    <string name="log_in_with_facebook">Пријавите се путем Фацебоока</string>
+    <string name="don_t_have_an_account">Немате рачун?</string>
+    <string name="sign_up_">Пријави се.</string>
+    <string name="activeLanguage">српски</string>
+    <string name="select_your_language">Одаберите језик</string>
+    <string name="search">Претрага</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>енглески</item>
+        <item>aфриканс</item>
+        <item>индонежански</item>
+        <item>Малајски</item>
+        <item>дански</item>
+        <item>немачки</item>
+        <item>енглески (Велика Британија)</item>
+        <item>Шпански (латиноамерички)</item>
+        <item>Шпански (Шпанија)</item>
+        <item>Филипински</item>
+        <item>Француски (Канада)</item>
+        <item>Француски (Француска)</item>
+        <item>xрватски</item>
+        <item>италијански</item>
+        <item>Мађарски</item>
+        <item>xоландски</item>
+        <item>норвешки (бокмал)</item>
+        <item>пољски</item>
+        <item>португалски (Бразил)</item>
+        <item>португалски (Португалија)</item>
+        <item>румунски</item>
+        <item>cловачки</item>
+        <item>фински</item>
+        <item>шведски</item>
+        <item>вијетнамски</item>
+        <item>турски</item>
+        <item>чешки</item>
+        <item>грчки</item>
+        <item>бугарски</item>
+        <item>руски</item>
+        <item>украјински</item>
+        <item>-</item>
+        <item>xебрејски</item>
+        <item>арапски</item>
+        <item>Перзијски</item>
+        <item>хинди</item>
+        <item>тајландски</item>
+        <item>Kинески (поједностављени)</item>
+        <item>Kинески (традиционални, Тајван)</item>
+        <item>Kинески (традиционални, Хонгконг)</item>
+        <item>јапански</item>
+        <item>корејски</item>
+    </string-array>
+
+</resources>

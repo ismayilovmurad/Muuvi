@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">เข้าสู่ระบบ</string>
+    <string name="phone_number_email_or_username">หมายเลขโทรศัพท์อีเมลหรือชื่อผู้ใช้</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="forgot_your_details">ลืมรายละเอียดของคุณ?</string>
+    <string name="get_help_signing_in">รับความช่วยเหลือในการลงชื่อเข้าใช้</string>
+    <string name="log_in_with_facebook">เข้าสู่ระบบด้วย Facebook</string>
+    <string name="don_t_have_an_account">ยังไม่มีบัญชีใช่ไหม</string>
+    <string name="sign_up_">ลงชื่อ.</string>
+    <string name="activeLanguage">ภาษาไทย</string>
+    <string name="select_your_language">เลือกภาษาของคุณ</string>
+    <string name="search">ค้นหา</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>อังกฤษ</item>
+        <item>แอฟริกาใต้</item>
+        <item>ชาวอินโดนีเซีย</item>
+        <item>ภาษามลายู</item>
+        <item>เดนมาร์ก</item>
+        <item>เยอรมัน</item>
+        <item>อังกฤษ (ประเทศอังกฤษ)</item>
+        <item>สเปน (ละตินอเมริกา)</item>
+        <item>สเปน (สเปน)</item>
+        <item>ฟิลิปปินส์</item>
+        <item>ฝรั่งเศส (แคนาดา)</item>
+        <item>ฝรั่งเศส (ฝรั่งเศส)</item>
+        <item>โครเอเชีย</item>
+        <item>อิตาลี</item>
+        <item>ฮังการี</item>
+        <item>ดัตช์</item>
+        <item>นอร์เวย์ (bokmål)</item>
+        <item>ขัด</item>
+        <item>โปรตุเกส (บราซิล)</item>
+        <item>โปรตุเกส (โปรตุเกส)</item>
+        <item>โรมาเนีย</item>
+        <item>สโลวาเกีย</item>
+        <item>ฟินแลนด์</item>
+        <item>สวีเดน</item>
+        <item>เวียตนาม</item>
+        <item>ตุรกี</item>
+        <item>สาธารณรัฐเช็ก</item>
+        <item>กรีก</item>
+        <item>บัลแกเรีย</item>
+        <item>รัสเซีย</item>
+        <item>ยูเครน</item>
+        <item>เซอร์เบีย</item>
+        <item>ชาวอิสราเอล</item>
+        <item>ภาษาอาหรับ</item>
+        <item>เปอร์เซีย</item>
+        <item>ภาษาฮินดี</item>
+        <item>-</item>
+        <item>ชาวจีน (แบบย่อ)</item>
+        <item>ชาวจีน (แบบดั้งเดิม, ไต้หวัน)</item>
+        <item>ชาวจีน (แบบดั้งเดิม, ฮ่องกง)</item>
+        <item>ญี่ปุ่น</item>
+        <item>เกาหลี</item>
+    </string-array>
+
+</resources>

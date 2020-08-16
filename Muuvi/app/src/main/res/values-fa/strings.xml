@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">وارد شدن</string>
+    <string name="phone_number_email_or_username">شماره تلفن ، ایمیل یا نام کاربری</string>
+    <string name="password">کلمه عبور</string>
+    <string name="forgot_your_details">جزئیات خود را فراموش کرده اید؟</string>
+    <string name="get_help_signing_in">از ورود به سیستم کمک بگیرید.</string>
+    <string name="log_in_with_facebook">برای ورود با فیس بوک</string>
+    <string name="don_t_have_an_account">حساب ندارید؟</string>
+    <string name="sign_up_">ثبت نام.</string>
+    <string name="activeLanguage">فارسی</string>
+    <string name="select_your_language">زبان خود را انتخاب کنید</string>
+    <string name="search">جستجو کردن</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>انگلیسی</item>
+        <item>افریقایی</item>
+        <item>اندونزیایی</item>
+        <item>مالایی</item>
+        <item>دانمارکی</item>
+        <item>آلمانی</item>
+        <item>انگلیسی (انگلستان)</item>
+        <item>اسپانیایی (آمریکای لاتین)</item>
+        <item>اسپانیایی (اسپانیا)</item>
+        <item>فیلیپینی</item>
+        <item>فرانسوی (کانادا)</item>
+        <item>فرانسوی (فرانسه)</item>
+        <item>کرواتی</item>
+        <item>ایتالیایی</item>
+        <item>مجارستانی</item>
+        <item>هلندی</item>
+        <item>نروژی (بوکمول)</item>
+        <item>لهستانی</item>
+        <item>پرتغالی (برزیل)</item>
+        <item>پرتغالی (کشور پرتغال)</item>
+        <item>اهل رومانی</item>
+        <item>اسلواکی</item>
+        <item>فنلاندی</item>
+        <item>سوئدی</item>
+        <item>ویتنامی</item>
+        <item>ترکی</item>
+        <item>کشور چک</item>
+        <item>یونانی</item>
+        <item>بلغاری</item>
+        <item>روسی</item>
+        <item>اوکراینی</item>
+        <item>صربی</item>
+        <item>عبری</item>
+        <item>عربی</item>
+        <item>فارسی</item>
+        <item>هندی</item>
+        <item>تایلندی</item>
+        <item>زبان چینی ساده شده)</item>
+        <item>چینی (سنتی ، تایوان)</item>
+        <item>چینی (سنتی ، هنگ کنگ)</item>
+        <item>ژاپنی</item>
+        <item>کره ای</item>
+    </string-array>
+
+</resources>

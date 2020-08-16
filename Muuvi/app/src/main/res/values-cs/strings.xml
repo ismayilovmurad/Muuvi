@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Přihlásit se</string>
+    <string name="phone_number_email_or_username">Telefonní číslo, e-mail nebo uživatelské jméno</string>
+    <string name="password">Heslo</string>
+    <string name="forgot_your_details">Zapomněli jste svoji přihlašovací údaje?</string>
+    <string name="get_help_signing_in">S přihlášením vám můžeme pomoct.</string>
+    <string name="log_in_with_facebook">Přihlásit se přes Facebook</string>
+    <string name="don_t_have_an_account">Nemáte účet?</string>
+    <string name="sign_up_">Zaregistrujte se.</string>
+    <string name="activeLanguage">Čeština</string>
+    <string name="select_your_language">Vyberte jazyk</string>
+    <string name="search">Vyhledávání</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Angličtina</item>
+        <item>Afrikánčina</item>
+        <item>Indonéština</item>
+        <item>Malajština</item>
+        <item>Dánština</item>
+        <item>Nemčina</item>
+        <item>Angličtina (Spojené království)</item>
+        <item>Španělština (Latinská Amerika)</item>
+        <item>Španělština (Španielsko)</item>
+        <item>Filipínština</item>
+        <item>Francouzština (Kanada)</item>
+        <item>Francouzština (Francie)</item>
+        <item>Chorvatština</item>
+        <item>Italština</item>
+        <item>Maďarština</item>
+        <item>Holandština</item>
+        <item>Norština (bokmal)</item>
+        <item>Polština</item>
+        <item>Portugalština (Brazílie)</item>
+        <item>portugalština (Portugalsko)</item>
+        <item>Rumunština</item>
+        <item>Slovenština</item>
+        <item>Finština</item>
+        <item>Švédština</item>
+        <item>Vietnamština</item>
+        <item>Turečtina</item>
+        <item>-</item>
+        <item>Řečtina</item>
+        <item>Bulharština</item>
+        <item>Ruština</item>
+        <item>Ukrajinština</item>
+        <item>Srbština</item>
+        <item>Hebrejština</item>
+        <item>Arabština</item>
+        <item>Perština</item>
+        <item>Hindština</item>
+        <item>Thajština</item>
+        <item>Čínština (zjednodušenă)</item>
+        <item>Čínština (tradiční, Tchaj-wan)</item>
+        <item>Čínština (tradiční, Hongkong)</item>
+        <item>Japonština</item>
+        <item>Korejština</item>
+    </string-array>
+
+</resources>

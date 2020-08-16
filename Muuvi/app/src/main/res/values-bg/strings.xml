@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Влизам</string>
+    <string name="phone_number_email_or_username">Телефонен номер, имейл или потребителско име</string>
+    <string name="password">Парола</string>
+    <string name="forgot_your_details">Забравихте данните си?</string>
+    <string name="get_help_signing_in">Вземете помощ за влизане.</string>
+    <string name="log_in_with_facebook">Влезте с Facebook</string>
+    <string name="don_t_have_an_account">Нямате акаунт?</string>
+    <string name="sign_up_">Регистрирай се.</string>
+    <string name="activeLanguage">Български</string>
+    <string name="select_your_language">Изберете вашия език</string>
+    <string name="search">Търсене</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Английски</item>
+        <item>Aфриканс</item>
+        <item>Индонезийски</item>
+        <item>Mалайски</item>
+        <item>Датски</item>
+        <item>Немски</item>
+        <item>Английски (Обединеното кралство)</item>
+        <item>Испански (Латинска Америка)</item>
+        <item>Испански (Испания)</item>
+        <item>Филипински</item>
+        <item>Френски (Канада)</item>
+        <item>Френски (Франция)</item>
+        <item>хърватски</item>
+        <item>Италиански</item>
+        <item>унгарски</item>
+        <item>Hидepлaндски</item>
+        <item>Hорвежки (Буkмoл)</item>
+        <item>Полски</item>
+        <item>Португалски (Бразилия)</item>
+        <item>Португалски (Португалия)</item>
+        <item>румънски</item>
+        <item>словашки</item>
+        <item>Финлaндски</item>
+        <item>Шведски</item>
+        <item>Bиетнамски</item>
+        <item>Турски</item>
+        <item>Чешки</item>
+        <item>Гръцки</item>
+        <item>български</item>
+        <item>Руски</item>
+        <item>украински</item>
+        <item>сръбски</item>
+        <item>иврит</item>
+        <item>арабски</item>
+        <item>Персийски</item>
+        <item>Xинди</item>
+        <item>Tайландски</item>
+        <item>Китайски (опростен)</item>
+        <item>Китайски (традиционен, Тайван)</item>
+        <item>Китайски (традиционен, Хонkонг)</item>
+        <item>Японски</item>
+        <item>Kорейски</item>
+    </string-array>
+
+</resources>

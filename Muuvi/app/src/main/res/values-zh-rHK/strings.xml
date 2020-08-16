@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">登錄</string>
+    <string name="phone_number_email_or_username">電話號碼，電子郵件或用戶名</string>
+    <string name="password">密碼</string>
+    <string name="forgot_your_details">忘記你的資料了嗎</string>
+    <string name="get_help_signing_in">獲取登錄幫助。</string>
+    <string name="log_in_with_facebook">用Facebook登錄</string>
+    <string name="don_t_have_an_account">還沒有帳號？</string>
+    <string name="sign_up_">註冊。</string>
+    <string name="activeLanguage">中文(香港)</string>
+    <string name="select_your_language">選擇你的語言</string>
+    <string name="search">搜索</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>英語</item>
+        <item>南非語</item>
+        <item>印度尼西亞語</item>
+        <item>馬來語</item>
+        <item>丹麥語</item>
+        <item>德語</item>
+        <item>英語（英國）</item>
+        <item>西班牙語（拉丁美洲）</item>
+        <item>西班牙語（西班牙）</item>
+        <item>菲律賓</item>
+        <item>法語（加拿大）</item>
+        <item>法語（法國）</item>
+        <item>克羅地亞語</item>
+        <item>意大利語</item>
+        <item>匈牙利語</item>
+        <item>荷蘭語</item>
+        <item>挪威語（bokmal）</item>
+        <item>波蘭語</item>
+        <item>葡萄牙語（巴西）</item>
+        <item>葡萄牙語（葡萄牙）</item>
+        <item>羅馬尼亞語</item>
+        <item>斯洛伐克語</item>
+        <item>芬蘭語</item>
+        <item>瑞典語</item>
+        <item>越南語</item>
+        <item>土耳其語</item>
+        <item>捷克</item>
+        <item>希臘語</item>
+        <item>保加利亞語</item>
+        <item>俄語</item>
+        <item>烏克蘭語</item>
+        <item>塞爾維亞語</item>
+        <item>希伯來語</item>
+        <item>阿拉伯語</item>
+        <item>波斯語</item>
+        <item>印地語</item>
+        <item>泰國</item>
+        <item>中文（簡體）</item>
+        <item>中文（繁體，台灣）</item>
+        <item>中文（繁體中文，香港）</item>
+        <item>日語</item>
+        <item>韓語</item>
+    </string-array>
+
+</resources>

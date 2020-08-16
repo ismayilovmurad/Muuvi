@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">로그인</string>
+    <string name="phone_number_email_or_username">전화 번호, 이메일 또는 사용자 이름</string>
+    <string name="password">암호</string>
+    <string name="forgot_your_details">세부 사항을 잊었습니까?</string>
+    <string name="get_help_signing_in">로그인 도움을 받으세요.</string>
+    <string name="log_in_with_facebook">페이스 북으로 로그인</string>
+    <string name="don_t_have_an_account">계정이 없습니까?</string>
+    <string name="sign_up_">가입하기.</string>
+    <string name="activeLanguage">한국어</string>
+    <string name="select_your_language">언어를 선택하십시오</string>
+    <string name="search">검색</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>英語</item>
+        <item>アフリカーンス語</item>
+        <item>インドネシア語</item>
+        <item>マレー語</item>
+        <item>デンマーク語</item>
+        <item>ドイツ語</item>
+        <item>英語（イギリス）</item>
+        <item>スペイン語（ラテンアメリカ）</item>
+        <item>スペイン語（スペイン）</item>
+        <item>フィリピン語</item>
+        <item>フランス語（カナダ）</item>
+        <item>フランス語（フランス）</item>
+        <item>クロアチア語</item>
+        <item>イタリア語</item>
+        <item>ハンガリー語</item>
+        <item>オランダ語</item>
+        <item>ノルウェー語（ブークモール）</item>
+        <item>ポーランド語</item>
+        <item>ポルトガル語（ブラジル）</item>
+        <item>ポルトガル語（ポルトガル）</item>
+        <item>ルーマニア語</item>
+        <item>スロバキア</item>
+        <item>フィンランド語</item>
+        <item>スウェーデン語</item>
+        <item>ベトナム語</item>
+        <item>トルコ語</item>
+        <item>チェコ</item>
+        <item>ギリシャ語</item>
+        <item>ブルガリア語</item>
+        <item>ロシア語</item>
+        <item>ウクライナ語</item>
+        <item>セルビア語</item>
+        <item>ヘブライ語</item>
+        <item>アラビア語</item>
+        <item>ペルシャ語</item>
+        <item>ヒンディー語</item>
+        <item>タイ語</item>
+        <item>中国語（簡体）</item>
+        <item>中国語（繁体字、台湾）</item>
+        <item>中国語（繁体字、香港）</item>
+        <item>日本語</item>
+        <item>-</item>
+    </string-array>
+
+</resources>

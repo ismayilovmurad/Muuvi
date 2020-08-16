@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Se connecter</string>
+    <string name="phone_number_email_or_username">Numéro de téléphone, adresse courriel ou nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="forgot_your_details">Informations de connexion oubliées?</string>
+    <string name="get_help_signing_in">Obtenez de l\'aide pour vous connecter.</string>
+    <string name="log_in_with_facebook">Se connecter avec Facebook</string>
+    <string name="don_t_have_an_account">Vous n\'avez pas de compte?</string>
+    <string name="sign_up_">Inscrivez-vous.</string>
+    <string name="activeLanguage">Français (Canada)</string>
+    <string name="select_your_language">Sélectionnez votre langue</string>
+    <string name="search">Chercher</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Anglais</item>
+        <item>-</item>
+        <item>Indonésien</item>
+        <item>Malais</item>
+        <item>Danois</item>
+        <item>Allemand</item>
+        <item>Anglais (Royaume-Uni)</item>
+        <item>Espagnol (Amérique latine)</item>
+        <item>Espagnol (Espagne)</item>
+        <item>Philippin</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Croate</item>
+        <item>Italien</item>
+        <item>Hongrois</item>
+        <item>Néerlandais</item>
+        <item>Norvégien (bokmal)</item>
+        <item>Polonais</item>
+        <item>Portugais (Brésil)</item>
+        <item>Portugais (Portugal)</item>
+        <item>Roumain</item>
+        <item>Slovaque</item>
+        <item>Finnois</item>
+        <item>Suédois</item>
+        <item>Vietnamien</item>
+        <item>Turc</item>
+        <item>Tchèque</item>
+        <item>Grec</item>
+        <item>Bulgare</item>
+        <item>Russe</item>
+        <item>Ukrainien</item>
+        <item>Serbe</item>
+        <item>Hébreu</item>
+        <item>Arabe</item>
+        <item>Parse</item>
+        <item>Hindi</item>
+        <item>Thaï</item>
+        <item>Chinois (simplifié)</item>
+        <item>Chinois (Taïwan)</item>
+        <item>Chinois (Hong Kong)</item>
+        <item>Japonais</item>
+        <item>Coréen</item>
+    </string-array>
+
+</resources>

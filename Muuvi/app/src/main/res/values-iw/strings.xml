@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">התחברות</string>
+    <string name="phone_number_email_or_username">מספר טלפון, אימייל או שם משתמש</string>
+    <string name="password">סיסמה</string>
+    <string name="forgot_your_details">שכחת את הפרטים שלך?</string>
+    <string name="get_help_signing_in">קבל עזרה בכניסה.</string>
+    <string name="log_in_with_facebook">התחבר עם פייסבוק</string>
+    <string name="don_t_have_an_account">אין לך חשבון?</string>
+    <string name="sign_up_">הירשם.</string>
+    <string name="activeLanguage">עברית</string>
+    <string name="select_your_language">בחר את השפה שלך</string>
+    <string name="search">לחפש</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>אנגלי\ת</item>
+        <item>אפרי\קאנס</item>
+        <item>אי\נדונזי\ת</item>
+        <item>מלאי\ת</item>
+        <item>דני\ת</item>
+        <item>גרמני\ת</item>
+        <item>אנגלי\ת (ברי\טני\ה)</item>
+        <item>ספרדי\ת (אמרי\קה הלטי\ני\ת)</item>
+        <item>ספרדי\ת (ספרד)</item>
+        <item>פי\לי\פי\ני\ת</item>
+        <item>צרפתי\ת (קנדה)</item>
+        <item>צרפתי\ת (צרפת)</item>
+        <item>קרואטי\ת</item>
+        <item>אי\טלקי\ת</item>
+        <item>הונגרי\ת</item>
+        <item>הולנדי\ת</item>
+        <item>נורווגי\ת (bokmal)</item>
+        <item>פולני\ת</item>
+        <item>פורטוגזי\ת (ברזי\ל)</item>
+        <item>פורטוגזי\ת (פורטוגל)</item>
+        <item>רומני\ת</item>
+        <item>סלובקי\ת</item>
+        <item>פי\ני\ת</item>
+        <item>שוודי\ת</item>
+        <item>ווי\י\טנאמי\ת</item>
+        <item>טורקי\ת</item>
+        <item>צ\'\כ\י\ת\</item>
+        <item>י\ווני\ת</item>
+        <item>בולגרי\ת</item>
+        <item>רוסי\ת</item>
+        <item>אוקראי\ני\ת</item>
+        <item>סרבי\ת</item>
+        <item>-</item>
+        <item>ע\ר\ב\'\ת</item>
+        <item>פ\ר\ס\'\ת</item>
+        <item>הי\נדי\ת</item>
+        <item>ת\א\י\ל\נ\ד\'\ת</item>
+        <item>סִי\נִי\ת (מְפוּשָׁט)</item>
+        <item>סִי\נִי\ת (מָסָרתִי\, טייוואן)</item>
+        <item>סִי\נִי\ת (מָסָרתִי\, הונג קונג)</item>
+        <item>י\ַפָּנִי\ת</item>
+        <item>קורי\אני\ת</item>
+    </string-array>
+
+</resources>

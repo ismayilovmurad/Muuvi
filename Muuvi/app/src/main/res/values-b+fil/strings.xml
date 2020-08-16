@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Mag-log In</string>
+    <string name="phone_number_email_or_username">Numero ng telepono, email o username</string>
+    <string name="password">Password</string>
+    <string name="forgot_your_details">Nakalimutan ang iyong mga detalye sa pag-login?</string>
+    <string name="get_help_signing_in">Humingi ng tulong sa pag-sign in.</string>
+    <string name="log_in_with_facebook">Mag-log gamit ang Facebook</string>
+    <string name="don_t_have_an_account">Wala pang account?</string>
+    <string name="sign_up_">Mag-sign up.</string>
+    <string name="activeLanguage">Filipino</string>
+    <string name="select_your_language">Piliin ang iyong wika</string>
+    <string name="search">Paghahanap</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Ingles</item>
+        <item>-</item>
+        <item>Indonesian</item>
+        <item>Malay</item>
+        <item>Danish</item>
+        <item>German</item>
+        <item>Ingles (UK)</item>
+        <item>Espanyol (Latin America)</item>
+        <item>Espanyol (Spain)</item>
+        <item>-</item>
+        <item>French (Canada)</item>
+        <item>French (France)</item>
+        <item>Croatian</item>
+        <item>Italian</item>
+        <item>Hungarian</item>
+        <item>Dutch</item>
+        <item>Norwegian (bokmal)</item>
+        <item>Polish</item>
+        <item>Portugues (Brazil)</item>
+        <item>Portugues (Portugal)</item>
+        <item>Romanian</item>
+        <item>Slovak</item>
+        <item>Finnish</item>
+        <item>Swedish</item>
+        <item>Vietnamese</item>
+        <item>Turkish</item>
+        <item>Czech</item>
+        <item>Greek</item>
+        <item>Bulgarian</item>
+        <item>Russian</item>
+        <item>Ukrainian</item>
+        <item>Serbian</item>
+        <item>Hebrew</item>
+        <item>Arabic</item>
+        <item>Persian</item>
+        <item>Hindi</item>
+        <item>Thai</item>
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Traditional, Taiwan)</item>
+        <item>Chinese (Traditional, Hong Kong)</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+    </string-array>
+
+</resources>

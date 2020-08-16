@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">लॉग इन करें</string>
+    <string name="phone_number_email_or_username">फोन नंबर, ईमेल या उपयोगकर्ता नाम</string>
+    <string name="password">कुंजिका</string>
+    <string name="forgot_your_details">अपना विवरण भूल गए?</string>
+    <string name="get_help_signing_in">साइन इन करने में सहायता प्राप्त करें।</string>
+    <string name="log_in_with_facebook">फेसबुक में जाये</string>
+    <string name="don_t_have_an_account">खाता नहीं है?</string>
+    <string name="sign_up_">साइन अप करें।</string>
+    <string name="activeLanguage">हिन्दी</string>
+    <string name="select_your_language">अपनी भाषा का चयन करें</string>
+    <string name="search">खोज</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>अंग्रेज़ी</item>
+        <item>दी</item>
+        <item>इन्डोनेशियाई</item>
+        <item>मलायी</item>
+        <item>दानिश</item>
+        <item>जर्मन</item>
+        <item>अंग्रेज़ी (यूनाइटेड किंगडम)</item>
+        <item>स्पेनिश (लैटिन अमेरिका)</item>
+        <item>स्पेनिश (स्पेन)</item>
+        <item>फ़िलिपींस</item>
+        <item>फ्रेंच (कनाडा)</item>
+        <item>फ्रेंच (फ्रांस)</item>
+        <item>क्रोएशियाई</item>
+        <item>इतालवी</item>
+        <item>हंगेरी</item>
+        <item>डच</item>
+        <item>नार्वेजियन (बोकमाल)</item>
+        <item>पोलिश</item>
+        <item>पुर्तगाली (ब्राज़िल)</item>
+        <item>पुर्तगाली (पुर्तगाल)</item>
+        <item>रोमानियाई</item>
+        <item>स्लोवाक</item>
+        <item>फिनिश</item>
+        <item>स्वीडिश</item>
+        <item>वियतनामी</item>
+        <item>तुर्की</item>
+        <item>चेक</item>
+        <item>यूनानी</item>
+        <item>बल्गेरियाई</item>
+        <item>रूसी</item>
+        <item>यूक्रेनी</item>
+        <item>सर्बियाई</item>
+        <item>यहूदी</item>
+        <item>अरबी</item>
+        <item>फ़ारसी</item>
+        <item>-</item>
+        <item>थाई</item>
+        <item>चीनी (सरलीकृत)</item>
+        <item>चीनी (परंपरागत, ताइवान)</item>
+        <item>चीनी (परंपरागत, हॉगकॉग)</item>
+        <item>जापानी</item>
+        <item>कोरियाई</item>
+    </string-array>
+
+</resources>

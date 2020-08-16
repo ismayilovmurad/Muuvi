@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Log på</string>
+    <string name="phone_number_email_or_username">Telefonnummer, e-mail eller brugernavn</string>
+    <string name="password">Adgangskode</string>
+    <string name="forgot_your_details">Har du glemt dine loginoplysninger?</string>
+    <string name="get_help_signing_in">Få hjælp til at logge på.</string>
+    <string name="log_in_with_facebook">Log på med Facebook</string>
+    <string name="don_t_have_an_account">Har du ingen konto?</string>
+    <string name="sign_up_">Registrer.</string>
+    <string name="activeLanguage">Dansk</string>
+    <string name="select_your_language">Vælg sprog</string>
+    <string name="search">Søg</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Engelsk</item>
+        <item>-</item>
+        <item>Indonesisk</item>
+        <item>Malajsisk</item>
+        <item>-</item>
+        <item>Tysk</item>
+        <item>Engelsk (UK)</item>
+        <item>Spansk (Latinamerika)</item>
+        <item>Spansk (Spanien)</item>
+        <item>Filippinsk</item>
+        <item>Fransk (Canada)</item>
+        <item>Fransk (Frankrig)</item>
+        <item>Kroatisk</item>
+        <item>Italiensk</item>
+        <item>Ungarsk</item>
+        <item>Hollandsk</item>
+        <item>-</item>
+        <item>Polsk</item>
+        <item>Portugisisk (Brasilien)</item>
+        <item>Portugisisk (Portugal)</item>
+        <item>Rumænsk</item>
+        <item>Slovakisk</item>
+        <item>Finsk</item>
+        <item>Svensk</item>
+        <item>Vietnamesisk</item>
+        <item>Tyrkisk</item>
+        <item>Tjekkisk</item>
+        <item>Græsk</item>
+        <item>Bulgarsk</item>
+        <item>Russisk</item>
+        <item>Ukrainsk</item>
+        <item>Serbisk</item>
+        <item>Hebræisk</item>
+        <item>Arabisk</item>
+        <item>Farsi</item>
+        <item>Hindi</item>
+        <item>Thai</item>
+        <item>Kinesisk (forenklet)</item>
+        <item>Traditionelt kinesisk (Taiwan)</item>
+        <item>Traditionelt kinesisk (Hongkong)</item>
+        <item>Japansk</item>
+        <item>Koreansk</item>
+    </string-array>
+
+</resources>

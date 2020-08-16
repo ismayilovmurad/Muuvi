@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Đăng nhập</string>
+    <string name="phone_number_email_or_username">Số điện thoại, email hoặc tên người dùng</string>
+    <string name="password">Mật khẩu</string>
+    <string name="forgot_your_details">Bạn quên chi tiết đăng nhập á?</string>
+    <string name="get_help_signing_in">Hãy nhận trợ giúp đễ đăng nhập.</string>
+    <string name="log_in_with_facebook">Đăng nhập bằng Facebook</string>
+    <string name="don_t_have_an_account">Bạn chưra có tái khoán?</string>
+    <string name="sign_up_">Hãy đăng ký.</string>
+    <string name="activeLanguage">Tiếng Việt</string>
+    <string name="select_your_language">Chọn ngôn ngữ của bạn</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Afrikaans</item>
+        <item>Tiếng Indo</item>
+        <item>Tiếng Mã Lai</item>
+        <item>Tiếng Đan Mạch</item>
+        <item>Tiếng Đức</item>
+        <item>Tiếng Anh (Anh)</item>
+        <item>Tiếng Tây Ban Nha (Mỹ La tinh)</item>
+        <item>Tiếng Tây Ban Nha (Tây Ban Nha)</item>
+        <item>Tiếng Philippin</item>
+        <item>Tiếng Phâp (Canada)</item>
+        <item>Tiếng (Phâp)</item>
+        <item>Tiếng Croatia</item>
+        <item>Tiếng Ý</item>
+        <item>Tiếng Hungary</item>
+        <item>Tiếng Hà Lan</item>
+        <item>Tiếng Na Uy (bokmal)</item>
+        <item>Tiếng Ba Lan</item>
+        <item>Tiếng Bồ Đào Nha (Brazil)</item>
+        <item>Tiếng Bồ Đào Nha (Bồ Đào Nha)</item>
+        <item>Tiếng Rumani</item>
+        <item>Tiếng Slovakia</item>
+        <item>Tiếng Phần Lan</item>
+        <item>Tiếng Thụy Điển</item>
+        <item>-</item>
+        <item>Tiếng Thổ Nhĩ Kỳ</item>
+        <item>Tiếng Séc</item>
+        <item>Tiếng Hy Lạp</item>
+        <item>Tiếng Bungari</item>
+        <item>Tiếng Nga</item>
+        <item>Tiếng Ukrainia</item>
+        <item>Tiếng Serbia</item>
+        <item>Tiếng Do Thái</item>
+        <item>Tiếng Ả Rập</item>
+        <item>Tiếng Ba Tư</item>
+        <item>Tiếng Hindi</item>
+        <item>Tiếng Thái</item>
+        <item>Tiếng Trung (Giản thể)</item>
+        <item>Tiếng Trung (Phốn thể, Đài Loan)</item>
+        <item>Tiếng Trung (Phốn thể, Hồng Kông)</item>
+        <item>Tiếng Nhật</item>
+        <item>Tiếng Hàn</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Masuk</string>
+    <string name="phone_number_email_or_username">Nomor telepon, email, atau nama pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="forgot_your_details">Lupa detail informasi masuk Anda?</string>
+    <string name="get_help_signing_in">Dapatkan bantuan untuk masuk.</string>
+    <string name="log_in_with_facebook">Masuk dengan Facebook</string>
+    <string name="don_t_have_an_account">Tidak punya akun?</string>
+    <string name="sign_up_">Buat Akun.</string>
+    <string name="activeLanguage">Bahasa Indonesia</string>
+    <string name="select_your_language">Pilih bahasa anda</string>
+    <string name="search">Cari</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>Bahasa Inggris</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Bahasa Denmark</item>
+        <item>Bahasa Jerman</item>
+        <item>Bahasa Inggris (Inggris)</item>
+        <item>Spanyol (Amerika Latin)</item>
+        <item>Bahasa Spanyol (Spanyol)</item>
+        <item>Bahasa Tagalog</item>
+        <item>Bahasa Prancis (Kanada)</item>
+        <item>Bahasa Prancis (Prancis)</item>
+        <item>Bahasa Kroasia</item>
+        <item>Bahasa Italia</item>
+        <item>Bahasa Hongaria</item>
+        <item>Bahasa Belanda</item>
+        <item>Bahasa Norwegia (bokmal)</item>
+        <item>Bahasa Polandia</item>
+        <item>Bahasa Portugis (Brasil)</item>
+        <item>Bahasa Portugis (Portugal)</item>
+        <item>Bahasa Rumania</item>
+        <item>Bahasa Slovakia</item>
+        <item>Bahasa Finlandia</item>
+        <item>Bahasa Swedia</item>
+        <item>Vietnam</item>
+        <item>Bahasa Turki</item>
+        <item>Bahasa Ceska</item>
+        <item>Bahasa Yunani</item>
+        <item>Bahasa Bulgaria</item>
+        <item>Bahasa Rusia</item>
+        <item>Bahasa Ukraina</item>
+        <item>Bahasa Serbia</item>
+        <item>Bahasa Ibrani</item>
+        <item>Bahasa Arab</item>
+        <item>Bahasa Farsi</item>
+        <item>Bahasa Hindi</item>
+        <item>Bahasa Thailand</item>
+        <item>Bahasa China (Disederhanakan)</item>
+        <item>Bahasa Mandarin (Tradisional, Taiwan)</item>
+        <item>Bahasa Mandarin (Tradisional, Hong Kong)</item>
+        <item>Bahasa Jepang</item>
+        <item>Bahasa Korea</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Giriş yap</string>
+    <string name="phone_number_email_or_username">Telefon numarası, e-posta adresi veya kullanıcı adı</string>
+    <string name="password">Şifre</string>
+    <string name="forgot_your_details">Giriş detaylarını unuttun mu?</string>
+    <string name="get_help_signing_in">Giriş yapmak için yardım al.</string>
+    <string name="log_in_with_facebook">Facebook ile Giriş Yap</string>
+    <string name="don_t_have_an_account">Hesabın yok mu?</string>
+    <string name="sign_up_">Kaydol.</string>
+    <string name="activeLanguage">Türkçe</string>
+    <string name="select_your_language">Dilini seç</string>
+    <string name="search">Ara</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="enter_your_username_or_the_email_or_phone_number_linked_to_your_account">Enter your username or the email or phone number linked to your account</string>
+    <string name="username_or_email">Username or email</string>
+    <string name="next">Next</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_">Log in.</string>
+    <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+
+    <string-array name="secondaryLanguageName">
+        <item>İngilizce</item>
+        <item>Afrikaanca</item>
+        <item>Endonezce</item>
+        <item>Malayca</item>
+        <item>Danca</item>
+        <item>Almanca</item>
+        <item>İngilizce (İngiltere)</item>
+        <item>İspanyolca (Latin Amerika)</item>
+        <item>İspanyolca (İspanya)</item>
+        <item>Filipince</item>
+        <item>Fransızca (Kanada)</item>
+        <item>Fransızca (Fransa)</item>
+        <item>Hırvatça</item>
+        <item>İtalyanca</item>
+        <item>Macarca</item>
+        <item>Felemenkçe</item>
+        <item>Norveççe (Bokmal)</item>
+        <item>Lehçe</item>
+        <item>Portekizce (Brezilya)</item>
+        <item>Portekizce (Portekiz)</item>
+        <item>Rumence</item>
+        <item>Slovakça</item>
+        <item>Fince</item>
+        <item>İsveççe</item>
+        <item>Vietnamca</item>
+        <item>-</item>
+        <item>Çekçe</item>
+        <item>Yunanca</item>
+        <item>Bulgarca</item>
+        <item>Rusça</item>
+        <item>Ukraynaca</item>
+        <item>Sırpça</item>
+        <item>İbranice</item>
+        <item>Arapça</item>
+        <item>Farsça</item>
+        <item>Hintçe</item>
+        <item>Tayca</item>
+        <item>Çince (Basitleştirilmiş)</item>
+        <item>Çince (Geleneksel, Tayvan)</item>
+        <item>Çince (Geleneksel, Hong Kong)</item>
+        <item>Japonca</item>
+        <item>Korece</item>
+    </string-array>
+
+</resources>
