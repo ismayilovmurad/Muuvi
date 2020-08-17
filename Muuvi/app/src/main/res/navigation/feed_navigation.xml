@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/feed_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.martiandeveloper.muuvi.view.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.martiandeveloper.muuvi.view.SearchFragment"
+        android:label="SearchFragment">
+        <action
+            android:id="@+id/action_searchFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.martiandeveloper.muuvi.view.AddFragment"
+        android:label="AddFragment">
+        <action
+            android:id="@+id/action_addFragment_to_topFragment"
+            app:destination="@id/topFragment" />
+        <action
+            android:id="@+id/action_addFragment_to_addDetailFragment"
+            app:destination="@id/addDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/topFragment"
+        android:name="com.martiandeveloper.muuvi.view.TopFragment"
+        android:label="TopFragment">
+        <action
+            android:id="@+id/action_topFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.martiandeveloper.muuvi.view.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/addDetailFragment"
+        android:name="com.martiandeveloper.muuvi.view.AddDetailFragment"
+        android:label="AddDetailFragment" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="genreIds"
+            app:argType="string" />
+        <argument
+            android:name="originCountry"
+            app:argType="string"
+            android:defaultValue="none" />
+        <argument
+            android:name="releaseDate"
+            app:argType="string" />
+        <argument
+            android:name="originalLanguage"
+            app:argType="string" />
+        <argument
+            android:name="voteAverage"
+            app:argType="string" />
+        <argument
+            android:name="overview"
+            app:argType="string" />
+        <argument
+            android:name="posterPath"
+            app:argType="string" />
+    </fragment>
+</navigation>

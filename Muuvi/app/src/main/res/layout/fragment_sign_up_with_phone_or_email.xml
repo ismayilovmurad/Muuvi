@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="signUpWithPhoneOrEmailViewModel"
+            type="com.martiandeveloper.muuvi.viewmodel.SignUpWithPhoneOrEmailViewModel" />
+
+        <variable
+            name="isVerifyLLGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="note"
+            type="java.lang.String" />
+
+        <variable
+            name="isMainLLGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isPhoneLLGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="phoneCode"
+            type="java.lang.String" />
+
+        <variable
+            name="isEmailLLGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isBottomLLGone"
+            type="java.lang.Boolean" />
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        tools:context=".view.SignUpWithPhoneOrEmailFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/fragment_sign_up_with_phone_or_email_verifyLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="24dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="8dp"
+                android:visibility="@{isVerifyLLGone ? View.GONE : View.VISIBLE,default=gone}"
+                app:layout_constraintBottom_toTopOf="@id/fragment_sign_up_with_phone_or_email_bottomLL"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_confirmation_code"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/fragment_sign_up_with_phone_or_email_noteMTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="@{note}"
+                    android:textColor="@color/colorNine" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/fragment_sign_up_with_phone_or_email_requestNewOneMTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/request_a_new_one"
+                    android:textColor="@color/colorThree"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/fragment_sign_up_with_phone_or_email_confirmationCodeET"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/confirmation_code"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:text="@={signUpWithPhoneOrEmailViewModel.confirmationCodeETContent}"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorEight"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp"
+                    tools:ignore="Autofill,TextFields" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/fragment_sign_up_with_phone_or_email_confirmationCodeNextMBTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/colorOne"
+                    android:text="@string/next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_sign_up_with_phone_or_email_mainLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="24dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="8dp"
+                android:visibility="@{isMainLLGone ? View.GONE : View.VISIBLE}"
+                app:layout_constraintBottom_toTopOf="@id/fragment_sign_up_with_phone_or_email_bottomLL"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/default_user_image" />
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/fragment_sign_up_with_phone_or_email_phoneLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="@{isPhoneLLGone ? View.GONE : View.VISIBLE}">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:weightSum="2">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:text="@string/phone"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/fragment_sign_up_with_phone_or_email_emailMTV"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:text="@string/email"
+                            android:textColor="@color/colorNine"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="2dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center"
+                            android:text="@string/phone" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorNine"
+                            android:gravity="center"
+                            android:text="@string/phone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edit_text_background">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/fragment_sign_up_with_phone_or_email_phoneCodeMTV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:text="@{phoneCode}"
+                                android:textColor="@color/colorNine"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:background="@color/colorAccent" />
+
+                            <EditText
+                                android:id="@+id/fragment_sign_up_with_phone_or_email_phoneNumberET"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@android:color/transparent"
+                                android:hint="@string/phone"
+                                android:imeOptions="actionDone"
+                                android:inputType="numberDecimal"
+                                android:longClickable="false"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="8dp"
+                                android:text="@={signUpWithPhoneOrEmailViewModel.phoneNumberETContent}"
+                                android:textColor="@color/colorPrimary"
+                                android:textColorHint="@color/colorEight"
+                                android:textCursorDrawable="@null"
+                                android:textSize="15sp"
+                                tools:ignore="Autofill,TextFields" />
+
+                        </LinearLayout>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginEnd="8dp"
+                            android:gravity="center"
+                            android:text="@string/you_may_receive_sms_updates_from_muuvi_and_can_opt_out_at_any_time"
+                            android:textColor="@color/colorNine" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/fragment_sign_up_with_phone_or_email_phoneNextMBTN"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginTop="16dp"
+                            android:backgroundTint="@color/colorOne"
+                            android:text="@string/next"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorAccent" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_sign_up_with_phone_or_email_emailLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="@{isEmailLLGone ? View.GONE : View.VISIBLE,default=gone}">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:weightSum="2">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/fragment_sign_up_with_phone_or_email_phoneMTV2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:text="@string/phone"
+                            android:textColor="@color/colorNine"
+                            android:textSize="20sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingBottom="8dp"
+                            android:text="@string/email"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorNine"
+                            android:gravity="center"
+                            android:text="@string/phone" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="2dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center"
+                            android:text="@string/phone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/fragment_sign_up_with_phone_or_email_emailET"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/edit_text_background"
+                            android:hint="@string/email"
+                            android:imeOptions="actionDone"
+                            android:inputType="textEmailAddress"
+                            android:longClickable="false"
+                            android:paddingStart="8dp"
+                            android:paddingEnd="8dp"
+                            android:text="@={signUpWithPhoneOrEmailViewModel.emailETContent}"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorEight"
+                            android:textCursorDrawable="@null"
+                            android:textSize="15sp"
+                            tools:ignore="Autofill,TextFields" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/fragment_sign_up_with_phone_or_email_emailNextMBTN"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginTop="16dp"
+                            android:backgroundTint="@color/colorOne"
+                            android:text="@string/next"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorAccent" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_sign_up_with_phone_or_email_bottomLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/splash_screen_bottom_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="@{isBottomLLGone ? View.GONE : View.VISIBLE}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:background="@color/colorSeven" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="2dp"
+                        android:text="@string/already_have_an_account"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="@string/log_in_"
+                        android:textColor="@color/colorOne"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/fragment_sign_up_with_phone_or_email_mainPB"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorOne"
+                android:indeterminateTintMode="src_atop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</layout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="addViewModel"
+            type="com.martiandeveloper.muuvi.viewmodel.AddViewModel" />
+
+        <variable
+            name="isProgressLLGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="searchingFor"
+            type="java.lang.String" />
+
+        <variable
+            name="isMainRVGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isClearIVGone"
+            type="java.lang.Boolean" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.AddFragment">
+
+        <EditText
+            android:id="@+id/fragment_add_movieSeriesET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/movie_or_series"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="@={addViewModel.movieSeriesETContent}"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorEight"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Autofill" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragment_add_mainRV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:scrollbars="vertical"
+            android:visibility="@{isMainRVGone ? View.GONE : View.VISIBLE}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_add_movieSeriesET" />
+
+        <LinearLayout
+            android:id="@+id/fragment_add_progressLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="@{isProgressLLGone ? View.GONE : View.VISIBLE,default=gone}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_add_movieSeriesET">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/fragment_add_searchingForMTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{searchingFor}"
+                android:textColor="@color/colorPrimary" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorOne"
+                android:indeterminateTintMode="src_atop" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/fragment_add_clearIV"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/app_name"
+            android:visibility="@{isClearIVGone ? View.GONE : View.VISIBLE,default=gone}"
+            app:layout_constraintBottom_toBottomOf="@+id/fragment_add_movieSeriesET"
+            app:layout_constraintEnd_toEndOf="@+id/fragment_add_movieSeriesET"
+            app:layout_constraintTop_toTopOf="@+id/fragment_add_movieSeriesET"
+            app:srcCompat="@drawable/ic_clear" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

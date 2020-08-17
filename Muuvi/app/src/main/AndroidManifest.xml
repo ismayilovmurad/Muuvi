@@ -31,6 +31,20 @@
         tools:targetApi="m">
 
         <activity
+            android:name=".view.FeedActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden|adjustPan" />
+
+        <activity
+            android:name=".view.AuthenticationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden" />
+
+        <activity
             android:name=".view.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"

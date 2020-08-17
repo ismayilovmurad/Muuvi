@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="logInViewModel"
+            type="com.martiandeveloper.muuvi.viewmodel.LogInViewModel" />
+
+        <variable
+            name="isVerifyLLGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="note"
+            type="java.lang.String" />
+
+        <variable
+            name="isMainLLGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isPhoneNumberEmailUsernameACTGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isPasswordETGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isFacebookLLGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isBottomLLGone"
+            type="java.lang.Boolean" />
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        tools:context=".view.LogInFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/fragment_log_in_verifyLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="24dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="8dp"
+                android:visibility="@{isVerifyLLGone ? View.GONE : View.VISIBLE,default=gone}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_confirmation_code"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/fragment_log_in_noteMTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="@{note}"
+                    android:textColor="@color/colorNine" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/fragment_log_in_requestNewOneMTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="@string/request_a_new_one"
+                    android:textColor="@color/colorThree"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/fragment_log_in_confirmationCodeET"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/confirmation_code"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:text="@={logInViewModel.confirmationCodeETContent}"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorEight"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp"
+                    tools:ignore="Autofill,TextFields" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/fragment_log_in_confirmationCodeNextMBTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/colorOne"
+                    android:text="@string/next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_log_in_mainLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:visibility="@{isMainLLGone ? View.GONE : View.VISIBLE}"
+                app:layout_constraintBottom_toTopOf="@+id/fragment_log_in_facebookLL"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/logo2" />
+
+                <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                    android:id="@+id/fragment_log_in_phoneNumberEmailUsernameACT"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/phone_number_email_or_username"
+                    android:imeOptions="actionDone"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:text="@={logInViewModel.phoneNumberEmailUsernameACTContent}"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorEight"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp"
+                    android:visibility="@{isPhoneNumberEmailUsernameACTGone ? View.GONE : View.VISIBLE}" />
+
+                <EditText
+                    android:id="@+id/fragment_log_in_passwordET"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_text_background"
+                    android:drawableEnd="@drawable/ic_visibility_off"
+                    android:hint="@string/password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:longClickable="false"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:text="@={logInViewModel.passwordETContent}"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorEight"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp"
+                    android:visibility="@{isPasswordETGone ? View.GONE : View.VISIBLE,default=gone}"
+                    tools:ignore="Autofill" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/fragment_log_in_logInMBTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/colorOne"
+                    android:text="@string/log_in"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent" />
+
+                <LinearLayout
+                    android:id="@+id/fragment_log_in_getHelpSigningInLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="2dp"
+                        android:text="@string/forgot_your_details"
+                        android:textColor="@color/colorThree"
+                        android:textSize="12sp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="@string/get_help_signing_in"
+                        android:textColor="@color/colorOne"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_log_in_facebookLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:visibility="@{isFacebookLLGone ? View.GONE : View.VISIBLE}"
+                app:layout_constraintBottom_toTopOf="@+id/fragment_log_in_bottomLL"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fragment_log_in_mainLL"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="3dp"
+                    android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/facebook" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/fragment_log_in_logInWithFacebookMTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/log_in_with_facebook"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_log_in_bottomLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/splash_screen_bottom_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="@{isBottomLLGone ? View.GONE : View.VISIBLE}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/colorSeven" />
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:background="@color/colorSeven" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="2dp"
+                        android:text="@string/don_t_have_an_account"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="@string/sign_up_"
+                        android:textColor="@color/colorOne"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/fragment_log_in_mainPB"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorOne"
+                android:indeterminateTintMode="src_atop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</layout>
