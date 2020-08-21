@@ -1,14 +1,14 @@
 package com.martiandeveloper.muuvi.model
 
-import com.google.gson.annotations.SerializedName
+import com.squareup.moshi.Json
 
 data class MovieResult(
-    @SerializedName("page")
+    @Json(name = "page")
     val page: Int?,
-    @SerializedName("total_results")
+    @Json(name = "total_results")
     val totalResults: Int?,
-    @SerializedName("total_pages")
+    @Json(name = "total_pages")
     val totalPages: Int?,
-    @SerializedName("results")
-    val results: ArrayList<Movie>?
+    @Json(name = "results")
+    val results: List<Movie>?
 )

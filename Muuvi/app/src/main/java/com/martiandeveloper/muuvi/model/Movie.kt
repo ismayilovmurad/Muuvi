@@ -1,33 +1,33 @@
 package com.martiandeveloper.muuvi.model
 
-import com.google.gson.annotations.SerializedName
+import com.squareup.moshi.Json
 
 data class Movie(
-    @SerializedName("original_name")
+    @Json(name="original_name")
     val originalName: String?,
-    @SerializedName("genre_ids")
+    @Json(name="genre_ids")
     val genreIds: List<Int>?,
-    @SerializedName("media_type")
+    @Json(name="media_type")
     val mediaType: String?,
-    @SerializedName("name")
+    @Json(name="name")
     val name: String?,
-    @SerializedName("origin_country")
+    @Json(name="origin_country")
     val originCountry: List<String>?,
-    @SerializedName("first_air_date")
+    @Json(name="first_air_date")
     val firstAirDate: String?,
-    @SerializedName("original_language")
+    @Json(name="original_language")
     val originalLanguage: String?,
-    @SerializedName("id")
+    @Json(name="id")
     val id: Int?,
-    @SerializedName("vote_average")
+    @Json(name="vote_average")
     val voteAverage: Float?,
-    @SerializedName("overview")
+    @Json(name="overview")
     val overview: String?,
-    @SerializedName("poster_path")
+    @Json(name="poster_path")
     val posterPath: String?,
-    @SerializedName("title")
+    @Json(name="title")
     val title: String?,
-    @SerializedName("release_date")
+    @Json(name="release_date")
     val releaseDate: String?,
-    @SerializedName("original_title")
+    @Json(name="original_title")
     val originalTitle: String?)

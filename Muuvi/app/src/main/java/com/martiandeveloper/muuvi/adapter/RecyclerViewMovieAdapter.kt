@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
+import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -15,11 +16,10 @@ import com.martiandeveloper.muuvi.model.Movie
 import com.martiandeveloper.muuvi.service.POSTER_BASE_URL
 import kotlinx.android.synthetic.main.recyclerview_movie_item.view.*
 
-
 class RecyclerViewMovieAdapter(
     private val context: Context,
     private val itemCLickListener: ItemClickListener
-) : PagedListAdapter<Movie, RecyclerView.ViewHolder>(MovieDiffCallback()) {
+) : PagingDataAdapter<Movie, RecyclerView.ViewHolder>(MovieDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)

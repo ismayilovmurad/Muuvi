@@ -12,20 +12,20 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.*
 import androidx.navigation.NavDirections
 import androidx.navigation.Navigation
-import androidx.paging.LivePagedListBuilder
-import androidx.paging.PagedList
+import androidx.paging.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.martiandeveloper.muuvi.R
 import com.martiandeveloper.muuvi.adapter.RecyclerViewMovieAdapter
 import com.martiandeveloper.muuvi.databinding.FragmentAddBinding
 import com.martiandeveloper.muuvi.model.Movie
-import com.martiandeveloper.muuvi.repository.MovieDataSourceFactory
+import com.martiandeveloper.muuvi.repository.MovieDataSource
 import com.martiandeveloper.muuvi.service.MovieApi
 import com.martiandeveloper.muuvi.service.MovieService
-import com.martiandeveloper.muuvi.service.POST_PER_PAGE
 import com.martiandeveloper.muuvi.viewmodel.AddViewModel
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.android.synthetic.main.fragment_add.*
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
 
 
 class AddFragment : Fragment(), View.OnClickListener, RecyclerViewMovieAdapter.ItemClickListener {
@@ -42,7 +42,7 @@ class AddFragment : Fragment(), View.OnClickListener, RecyclerViewMovieAdapter.I
 
     private val compositeDisposable = CompositeDisposable()
     private lateinit var moviePagedList: LiveData<PagedList<Movie>>
-    private lateinit var moviesDataSourceFactory: MovieDataSourceFactory
+//    private lateinit var moviesDataSourceFactory: MovieDataSourceFactory
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -83,6 +83,35 @@ class AddFragment : Fragment(), View.OnClickListener, RecyclerViewMovieAdapter.I
         val imm = context?.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.showSoftInput(fragment_add_movieSeriesET, InputMethodManager.SHOW_IMPLICIT)
         api = MovieService.getClient()
+
+    }
+
+    private fun setupView(movie:String) {
+
+        val listData = Pager(PagingConfig(pageSize = 20)) {
+            MovieDataSource(movie, api)
+        }.flow.cachedIn(lifecycleScope)
+
+        lifecycleScope.launch {
+            listData.collect {
+                adapter.submitData(it)
+            }
+        }
+
+        setProgress(
+            isRecyclerViewGone = false,
+            isProgressLLViewGone = true
+        )
+
+        /*val listData = Pager(PagingConfig(pageSize = 20)) {
+            MovieDataSource("i", APIService.getApiService())
+        }.flow.cachedIn(lifecycleScope)
+
+        lifecycleScope.launch {
+            listData.collect {
+                adapter.submitData(it)
+            }
+        }*/
     }
 
     private fun setRecyclerView() {
@@ -119,9 +148,10 @@ class AddFragment : Fragment(), View.OnClickListener, RecyclerViewMovieAdapter.I
                 binding.isClearIVGone = false
                 if (vm.movieSeriesETContent.value != null) {
                     if (vm.movieSeriesETContent.value != "") {
-                        fetchLiveMoviePagedList(
+                        setupView(vm.movieSeriesETContent.value!!)
+                        /*fetchLiveMoviePagedList(
                             vm.movieSeriesETContent.value!!
-                        )
+                        )*/
                     }
                 }
             } else {
@@ -132,7 +162,7 @@ class AddFragment : Fragment(), View.OnClickListener, RecyclerViewMovieAdapter.I
 
     }
 
-    private fun fetchLiveMoviePagedList(movie: String) {
+    /*private fun fetchLiveMoviePagedList(movie: String) {
         moviesDataSourceFactory = MovieDataSourceFactory(movie, api, compositeDisposable)
 
         val config = PagedList.Config.Builder()
@@ -150,7 +180,7 @@ class AddFragment : Fragment(), View.OnClickListener, RecyclerViewMovieAdapter.I
                 )
             }
         })
-    }
+    }*/
 
     private fun setProgress(isRecyclerViewGone: Boolean, isProgressLLViewGone: Boolean) {
         if (vm.movieSeriesETContent.value != null) {

@@ -103,4 +103,8 @@ dependencies {
     implementation "com.github.yalantis:ucrop:$ucrop"
     // Paging
     implementation "androidx.paging:paging-runtime:$paging"
+    implementation "androidx.paging:paging-rxjava2:$paging"
+
+    implementation "com.squareup.moshi:moshi-kotlin:1.9.3"
+    implementation "com.squareup.retrofit2:converter-moshi:2.6.2"
 }

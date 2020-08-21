@@ -82,6 +82,8 @@
     <string name="post">Post</string>
     <string name="rate_this_series">Rate this series</string>
     <string name="an_unknown_network_error_has_occurred">An unknown network error has occurred.</string>
+    <string name="try_again">Try again</string>
+    <string name="settings">Settings</string>
 
     <string-array name="secondaryLanguageName">
         <item>อังกฤษ</item>
