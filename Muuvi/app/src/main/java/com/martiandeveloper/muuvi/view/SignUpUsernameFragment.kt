@@ -15,7 +15,6 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation
 import com.google.android.material.textview.MaterialTextView
@@ -88,7 +87,7 @@ class SignUpUsernameFragment : Fragment(), View.OnClickListener {
 
     private fun observeEditTextContent(
     ) {
-        vm.usernameETContent.observe(viewLifecycleOwner, Observer {
+        vm.usernameETContent.observe(viewLifecycleOwner, {
             if (it.isNotEmpty()) {
                 if (it.length < 15) {
                     if (pattern.matcher(it).matches()) {

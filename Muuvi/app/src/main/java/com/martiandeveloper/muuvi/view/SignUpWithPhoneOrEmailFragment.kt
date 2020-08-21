@@ -6,6 +6,7 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.util.Patterns
 import android.view.LayoutInflater
 import android.view.View
@@ -16,7 +17,6 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.NavDirections
 import androidx.navigation.Navigation
@@ -245,7 +245,7 @@ class SignUpWithPhoneOrEmailFragment : Fragment(), View.OnClickListener,
         type: String,
         btn: MaterialButton
     ) {
-        content.observe(viewLifecycleOwner, Observer {
+        content.observe(viewLifecycleOwner, {
             if (it.isNotEmpty()) {
                 if (type == "phone") {
                     if (Patterns.PHONE.matcher(it).matches()) {
@@ -298,9 +298,11 @@ class SignUpWithPhoneOrEmailFragment : Fragment(), View.OnClickListener,
                                 setToast(resources.getString(R.string.phone_number_already_exists_try_to_log_in_instead))
                             }
                         } else {
+                            Log.d("Murad","here1")
                             setToast(resources.getString(R.string.something_went_wrong_please_try_again_later))
                         }
                     } else {
+                        Log.d("Murad","" + (it.exception?.localizedMessage ?: "no message"))
                         setToast(resources.getString(R.string.something_went_wrong_please_try_again_later))
                     }
                 }
@@ -412,6 +414,7 @@ class SignUpWithPhoneOrEmailFragment : Fragment(), View.OnClickListener,
                         ).show()
                     }
                     else -> {
+                        Log.d("Murad","here3")
                         Toast.makeText(
                             context,
                             resources.getString(R.string.something_went_wrong_please_try_again_later),
@@ -514,6 +517,7 @@ class SignUpWithPhoneOrEmailFragment : Fragment(), View.OnClickListener,
             }
         } else {
             setToast(resources.getString(R.string.something_went_wrong_please_try_again_later))
+            Log.d("Murad","here4")
         }
     }
 
@@ -533,6 +537,7 @@ class SignUpWithPhoneOrEmailFragment : Fragment(), View.OnClickListener,
                 } else {
                     setProgress(1F, true, View.GONE)
                     setToast(resources.getString(R.string.something_went_wrong_please_try_again_later))
+                    Log.d("Murad","here5")
                 }
             } else {
                 setProgress(1F, true, View.GONE)
@@ -541,6 +546,7 @@ class SignUpWithPhoneOrEmailFragment : Fragment(), View.OnClickListener,
         } else {
             setProgress(1F, true, View.GONE)
             setToast(resources.getString(R.string.something_went_wrong_please_try_again_later))
+            Log.d("Murad","here6")
         }
     }
 

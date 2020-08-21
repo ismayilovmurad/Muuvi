@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="rateViewModel"
+            type="com.martiandeveloper.muuvi.viewmodel.RateViewModel" />
+
+        <variable
+            name="title"
+            type="java.lang.String" />
+
+        <variable
+            name="subTitle"
+            type="java.lang.String" />
+
+        <variable
+            name="ratingLength"
+            type="java.lang.String" />
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".view.RateActivity">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/activity_rate_mainMT"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:backgroundTint="@color/colorAccent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="0dp">
+
+                        <ImageView
+                            android:id="@+id/activity_rate_toolbarIV"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_language" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="8dp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/activity_rate_titleMTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="@{title}"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/activity_rate_subTitleMTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@{subTitle}"
+                            android:textColor="@color/colorPrimary"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/activity_rate_mainPB"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:indeterminate="true"
+                    android:layout_gravity="end"
+                    android:visibility="gone"
+                    android:layout_marginEnd="16dp"
+                    android:indeterminateTint="@color/colorOne"
+                    android:indeterminateTintMode="src_atop" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/activity_rate_postMTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingStart="4dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="4dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/post"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorOne" />
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_rate_noteCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp">
+
+                <LinearLayout
+                    android:id="@+id/activity_rate_noteLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reviews_are_public_and_editable"
+                        android:textColor="@color/colorThree"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/the_name_and_photo_on_your_muuvi_profile_will_appear_with_your_review_past_edits_are_visible_to_users_unless_you_delete_them"
+                        android:textColor="@color/colorThree" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/activity_rate_gotItMTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="8dp"
+                        android:text="@string/got_it"
+                        android:textColor="@color/colorOne" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <RatingBar
+                android:id="@+id/activity_rate_mainRB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:numStars="5"
+                android:isIndicator="true"
+                android:progressTint="@color/colorOne"
+                android:stepSize="1" />
+
+            <EditText
+                android:id="@+id/activity_rate_rateET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/edit_text_background_2"
+                android:gravity="top|start"
+                android:hint="@string/describe_your_experience_optional"
+                android:imeOptions="actionDone"
+                android:inputType="textMultiLine"
+                android:lines="6"
+                android:padding="8dp"
+                android:scrollbars="vertical"
+                android:text="@={rateViewModel.rateETContent}"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorEight"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp"
+                tools:ignore="Autofill" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/activity_rate_ratingLengthMTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="24dp"
+                android:text="@{ratingLength}"
+                android:textColor="@color/colorThree" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

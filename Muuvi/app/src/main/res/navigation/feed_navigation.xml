@@ -1,76 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/feed_navigation"
+    xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.martiandeveloper.muuvi.view.HomeFragment"
-        android:label="HomeFragment">
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_searchFragment"
             app:destination="@id/searchFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/searchFragment"
         android:name="com.martiandeveloper.muuvi.view.SearchFragment"
-        android:label="SearchFragment">
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search">
         <action
             android:id="@+id/action_searchFragment_to_addFragment"
             app:destination="@id/addFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/addFragment"
         android:name="com.martiandeveloper.muuvi.view.AddFragment"
-        android:label="AddFragment">
+        android:label="AddFragment"
+        tools:layout="@layout/fragment_add">
         <action
             android:id="@+id/action_addFragment_to_topFragment"
             app:destination="@id/topFragment" />
         <action
-            android:id="@+id/action_addFragment_to_addDetailFragment"
-            app:destination="@id/addDetailFragment" />
+            android:id="@+id/action_addFragment_to_addMovieDetailFragment"
+            app:destination="@id/addMovieDetailFragment" />
+        <action
+            android:id="@+id/action_addFragment_to_addTvDetailFragment"
+            app:destination="@id/addTvDetailFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/topFragment"
         android:name="com.martiandeveloper.muuvi.view.TopFragment"
-        android:label="TopFragment">
+        android:label="TopFragment"
+        tools:layout="@layout/fragment_top">
         <action
             android:id="@+id/action_topFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.martiandeveloper.muuvi.view.ProfileFragment"
-        android:label="ProfileFragment" />
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
     <fragment
-        android:id="@+id/addDetailFragment"
-        android:name="com.martiandeveloper.muuvi.view.AddDetailFragment"
-        android:label="AddDetailFragment" >
+        android:id="@+id/addMovieDetailFragment"
+        android:name="com.martiandeveloper.muuvi.view.AddMovieDetailFragment"
+        android:label="AddMovieDetailFragment"
+        tools:layout="@layout/fragment_add_movie_detail">
+        <argument
+            android:name="id"
+            android:defaultValue="none"
+            app:argType="string" />
         <argument
             android:name="title"
+            android:defaultValue="none"
             app:argType="string" />
         <argument
             android:name="genreIds"
+            android:defaultValue="none"
             app:argType="string" />
         <argument
-            android:name="originCountry"
-            app:argType="string"
-            android:defaultValue="none" />
-        <argument
             android:name="releaseDate"
+            android:defaultValue="none"
             app:argType="string" />
         <argument
             android:name="originalLanguage"
+            android:defaultValue="none"
             app:argType="string" />
         <argument
             android:name="voteAverage"
+            android:defaultValue="none"
             app:argType="string" />
         <argument
             android:name="overview"
+            android:defaultValue="none"
             app:argType="string" />
         <argument
             android:name="posterPath"
+            android:defaultValue="none"
             app:argType="string" />
     </fragment>
+
+    <fragment
+        android:id="@+id/addTvDetailFragment"
+        android:name="com.martiandeveloper.muuvi.view.AddTvDetailFragment"
+        android:label="AddTvDetailFragment"
+        tools:layout="@layout/fragment_add_tv_detail">
+        <argument
+            android:name="id"
+            android:defaultValue="none"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            android:defaultValue="none"
+            app:argType="string" />
+        <argument
+            android:name="genreIds"
+            android:defaultValue="none"
+            app:argType="string" />
+        <argument
+            android:name="releaseDate"
+            android:defaultValue="none"
+            app:argType="string" />
+        <argument
+            android:name="originCountry"
+            android:defaultValue="none"
+            app:argType="string" />
+        <argument
+            android:name="originalLanguage"
+            android:defaultValue="none"
+            app:argType="string" />
+        <argument
+            android:name="voteAverage"
+            android:defaultValue="none"
+            app:argType="string" />
+        <argument
+            android:name="overview"
+            android:defaultValue="none"
+            app:argType="string" />
+        <argument
+            android:name="posterPath"
+            android:defaultValue="none"
+            app:argType="string" />
+    </fragment>
+
 </navigation>

@@ -18,7 +18,6 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation
 import com.google.android.material.textview.MaterialTextView
@@ -94,7 +93,7 @@ class PasswordFragment : Fragment(), View.OnClickListener {
 
     private fun observeEditTextContent(
     ) {
-        vm.passwordETContent.observe(viewLifecycleOwner, Observer {
+        vm.passwordETContent.observe(viewLifecycleOwner, {
             if (it.isNotEmpty()) {
                 if (it.length >= 4) {
                     if (it == vm.confirmPasswordET.value) {
@@ -110,7 +109,7 @@ class PasswordFragment : Fragment(), View.OnClickListener {
             }
         })
 
-        vm.confirmPasswordET.observe(viewLifecycleOwner, Observer {
+        vm.confirmPasswordET.observe(viewLifecycleOwner, {
             if (it.isNotEmpty()) {
                 if (it.length >= 4) {
                     if (it == vm.passwordETContent.value) {

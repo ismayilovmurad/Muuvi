@@ -21,7 +21,6 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.NavDirections
 import androidx.navigation.Navigation
@@ -171,7 +170,7 @@ class LogInFragment : Fragment(), View.OnClickListener {
         textLength: Int,
         btn: MaterialButton
     ) {
-        content.observe(viewLifecycleOwner, Observer {
+        content.observe(viewLifecycleOwner, {
             if (textLength == 0) {
                 if (it.isNotEmpty()) {
                     setMBTN(1F, true, btn)

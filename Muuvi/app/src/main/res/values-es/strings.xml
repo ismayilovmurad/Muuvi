@@ -18,6 +18,7 @@
     <string name="already_have_an_account">Already have an account?</string>
     <string name="log_in_">Log in.</string>
     <string name="sign_up_with_email_or_phone_number">Sign up with email or phone number</string>
+    <string name="an_unknown_network_error_has_occurred">An unknown network error has occurred.</string>
 
     <string-array name="secondaryLanguageName">
         <item>Inglés</item>

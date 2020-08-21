@@ -15,7 +15,6 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.NavDirections
 import androidx.navigation.Navigation
@@ -300,7 +299,7 @@ class LogInHelpFragment : Fragment(), View.OnClickListener {
     }
 
     private fun observeEditTextContent() {
-        vm.usernameEmailPhoneACTContent.observe(viewLifecycleOwner, Observer {
+        vm.usernameEmailPhoneACTContent.observe(viewLifecycleOwner, {
             if (it.isNotEmpty()) {
                 setMBTN(1F, true)
             } else {

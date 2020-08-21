@@ -1,7 +1,8 @@
+@file:Suppress("PropertyName")
+
 package com.martiandeveloper.muuvi.adapter
 
 import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,17 +10,16 @@ import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import android.widget.Toast
 import com.martiandeveloper.muuvi.R
 import com.martiandeveloper.muuvi.model.Movie
 import com.martiandeveloper.muuvi.service.POSTER_BASE_URL
 import kotlinx.android.synthetic.main.recyclerview_movie_item.view.*
 
 
-class RecyclerViewMovieAdapter2(public val context: Context) : PagedListAdapter<Movie, RecyclerView.ViewHolder>(MovieDiffCallback()) {
-
-    val MOVIE_VIEW_TYPE = 1
-    val NETWORK_VIEW_TYPE = 2
+class RecyclerViewMovieAdapter(
+    private val context: Context,
+    private val itemCLickListener: ItemClickListener
+) : PagedListAdapter<Movie, RecyclerView.ViewHolder>(MovieDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
@@ -28,7 +28,7 @@ class RecyclerViewMovieAdapter2(public val context: Context) : PagedListAdapter<
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        (holder as MovieItemViewHolder).bind(getItem(position),context)
+        (holder as MovieItemViewHolder).bind(getItem(position), context, itemCLickListener)
     }
 
     class MovieDiffCallback : DiffUtil.ItemCallback<Movie>() {
@@ -43,10 +43,14 @@ class RecyclerViewMovieAdapter2(public val context: Context) : PagedListAdapter<
     }
 
 
-    class MovieItemViewHolder (view: View) : RecyclerView.ViewHolder(view) {
+    class MovieItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-        fun bind(movie: Movie?,context: Context) {
-            if(movie != null) {
+        fun bind(
+            movie: Movie?,
+            context: Context,
+            itemClickListener: ItemClickListener
+        ) {
+            if (movie != null) {
                 if (movie.mediaType != "person") {
                     if (movie.mediaType == "tv") {
                         val title =
@@ -69,6 +73,10 @@ class RecyclerViewMovieAdapter2(public val context: Context) : PagedListAdapter<
                         .placeholder(R.drawable.logo1)
                         .centerCrop()
                         .into(itemView.recyclerview_movie_item_posterIV)
+
+                    itemView.setOnClickListener {
+                        itemClickListener.onItemClick(movie)
+                    }
                 }
             }
 
@@ -76,9 +84,7 @@ class RecyclerViewMovieAdapter2(public val context: Context) : PagedListAdapter<
 
     }
 
-
-
-
-
-
+    interface ItemClickListener {
+        fun onItemClick(movie: Movie)
+    }
 }

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="releaseDate"
+            type="java.lang.String" />
+
+        <variable
+            name="voteAverage"
+            type="java.lang.String" />
+
+        <variable
+            name="genre"
+            type="java.lang.String" />
+
+        <variable
+            name="country"
+            type="java.lang.String" />
+
+        <variable
+            name="language"
+            type="java.lang.String" />
+
+        <variable
+            name="overview"
+            type="java.lang.String" />
+
+        <variable
+            name="isReleaseDateMTVGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isVoteAverageMTVGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isGenreMTVGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isCountryMTVGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isLanguageMTVGone"
+            type="java.lang.Boolean" />
+
+        <variable
+            name="isOverviewMTVGone"
+            type="java.lang.Boolean" />
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.AddMovieDetailFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/fragment_add_tv_detail_mainMT"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:backgroundTint="@color/colorAccent"
+                android:elevation="0dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:id="@+id/fragment_add_tv_detail_posterIV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/app_name" />
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:contentDescription="@string/app_name"
+                            app:srcCompat="@drawable/ic_date" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/fragment_add_tv_detail_releaseDateMTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:text="@{releaseDate}"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:visibility="@{isReleaseDateMTVGone ? View.GONE : View.VISIBLE}" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:contentDescription="@string/app_name"
+                            app:srcCompat="@drawable/ic_star" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/fragment_add_tv_detail_voteAverageMTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:text="@{voteAverage}"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:visibility="@{isVoteAverageMTVGone ? View.GONE : View.VISIBLE}" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rate_this_series"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tell_others_what_you_think"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12sp" />
+
+                <RatingBar
+                    android:id="@+id/fragment_add_mainRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:numStars="5"
+                    android:progressTint="@color/colorOne"
+                    android:stepSize="1" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/fragment_add_tv_detail_writeReviewMTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/write_a_review"
+                    android:textColor="@color/colorOne"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/ic_genre" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/fragment_add_tv_detail_genreMTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="@{genre}"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:visibility="@{isGenreMTVGone ? View.GONE : View.VISIBLE}" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/ic_country" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/fragment_add_tv_detail_countryMTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="@{country}"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:visibility="@{isCountryMTVGone ? View.GONE : View.VISIBLE}" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/ic_language" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/fragment_add_tv_detail_languageMTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:text="@{language}"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:visibility="@{isLanguageMTVGone ? View.GONE : View.VISIBLE}" />
+
+                </LinearLayout>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/overview"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/fragment_add_tv_detail_overviewMTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@{overview}"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:visibility="@{isOverviewMTVGone ? View.GONE : View.VISIBLE}" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

@@ -1,7 +1,6 @@
 package com.martiandeveloper.muuvi.repository
 
 import android.util.Log
-import androidx.lifecycle.MutableLiveData
 import androidx.paging.PageKeyedDataSource
 import com.martiandeveloper.muuvi.model.Movie
 import com.martiandeveloper.muuvi.service.FIRST_PAGE

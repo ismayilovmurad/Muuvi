@@ -3,7 +3,6 @@ package com.martiandeveloper.muuvi.view
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
-import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -36,7 +35,7 @@ class AuthenticationActivity : AppCompatActivity(), View.OnClickListener,
         setContentView(R.layout.activity_authentication)
         setListeners()
         initVariables()
-        setBackground()
+        window.setBackgroundDrawableResource(R.drawable.authentication_background)
     }
 
     private fun checkLanguage() {
@@ -207,7 +206,7 @@ class AuthenticationActivity : AppCompatActivity(), View.OnClickListener,
         destination: NavDestination,
         arguments: Bundle?
     ) {
-        when {
+        /*when {
             destination.label.toString() == "LogInHelpFragment" -> {
                 activity_authentication_localizationLL.visibility = View.GONE
             }
@@ -226,7 +225,7 @@ class AuthenticationActivity : AppCompatActivity(), View.OnClickListener,
             else -> {
                 activity_authentication_localizationLL.visibility = View.VISIBLE
             }
-        }
+        }*/
     }
 
     override fun onResume() {
@@ -245,13 +244,5 @@ class AuthenticationActivity : AppCompatActivity(), View.OnClickListener,
             ?.childFragmentManager?.fragments!!) {
             fragment.onActivityResult(requestCode, resultCode, imageData)
         }
-    }
-
-    private fun setBackground() {
-        val animationDrawable: AnimationDrawable =
-            activity_authentication_mainCL.background as AnimationDrawable
-        animationDrawable.setEnterFadeDuration(2000)
-        animationDrawable.setExitFadeDuration(4000)
-        animationDrawable.start()
     }
 }
