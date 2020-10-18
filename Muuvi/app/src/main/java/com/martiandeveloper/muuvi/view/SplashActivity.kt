@@ -31,7 +31,6 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
     private fun initUI() {
         window.setBackgroundDrawableResource(R.drawable.splash_background)
         setContentView(R.layout.activity_splash)
-        checkInternet()
     }
 
     private fun checkInternet() {
